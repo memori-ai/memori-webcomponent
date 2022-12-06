@@ -39,7 +39,6 @@ npm install @memori.ai/memori-webcomponent
 <memori-webcomponent
   memoriName="Memori"
   ownerUserName="nunziofiore"
-  ownerUserName="nzambello"
   tenantID="app.memorytwin.com"
   showShare
   apiURL="https://backend.memori.ai"
