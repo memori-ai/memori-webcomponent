@@ -1,0 +1,201 @@
+{
+  "name": "@memori.ai/memori-webcomponent",
+  "version": "0.1.0",
+  "description": "WebComponent to integrate a Memori in your app or website",
+  "author": "Memori Srl",
+  "main": "dist/index.js",
+  "module": "esm/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "esm",
+    "src"
+  ],
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/memori-ai/memori-webcomponent#readme",
+  "bugs": "https://github.com/memori-ai/memori-webcomponent/issues",
+  "repository": "https://github.com/memori-ai/memori-webcomponent.git",
+  "keywords": [
+    "memori",
+    "memori-ai",
+    "webcomponent",
+    "react",
+    "nlp",
+    "typescript",
+    "ai",
+    "conversational-agents",
+    "conversational-ai"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "tsdx lint"
+    }
+  },
+  "scripts": {
+    "clean": "rimraf dist esm"
+  },
+  "prettier": {
+    "printWidth": 80,
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "es5",
+    "arrowParens": "avoid",
+    "endOfLine": "auto",
+    "overrides": [
+      {
+        "files": "*.css",
+        "options": {
+          "tabWidth": 4,
+          "printWidth": 120
+        }
+      },
+      {
+        "files": "*.json",
+        "options": {
+          "printWidth": 200
+        }
+      }
+    ]
+  },
+  "eslintIgnore": [
+    "/node_modules",
+    "/build"
+  ],
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "es2021": true,
+      "jest": true
+    },
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+      "ecmaFeatures": {
+        "jsx": true
+      },
+      "ecmaVersion": "latest",
+      "sourceType": "module"
+    },
+    "extends": [
+      "plugin:react/recommended",
+      "prettier"
+    ],
+    "plugins": [
+      "jest",
+      "react",
+      "@typescript-eslint",
+      "prettier",
+      "react-hooks",
+      "jsx-a11y"
+    ],
+    "rules": {
+      "endOfLine": "off",
+      "react/no-unknown-property": "off",
+      "react/require-default-props": "off",
+      "no-console": "off",
+      "no-shadow": "off"
+    }
+  },
+  "stylelint": {
+    "extends": [
+      "stylelint-config-recommended",
+      "stylelint-config-prettier",
+      "stylelint-config-idiomatic-order"
+    ],
+    "rules": {
+      "at-rule-no-unknown": [
+        true,
+        {
+          "ignoreAtRules": [
+            "extend",
+            "function",
+            "include",
+            "mixin",
+            "return"
+          ]
+        }
+      ]
+    }
+  },
+  "release-it": {
+    "hooks": {
+      "after:bump": "yarn build"
+    },
+    "git": {
+      "tagName": "v${version}",
+      "commitMessage": "chore: release v${version}"
+    },
+    "npm": {
+      "publish": true
+    },
+    "github": {
+      "release": true,
+      "releaseName": "${version}"
+    },
+    "plugins": {
+      "@release-it/conventional-changelog": {
+        "infile": "CHANGELOG.md",
+        "preset": {
+          "name": "conventionalcommits",
+          "types": [
+            {
+              "type": "feat",
+              "section": "Features"
+            },
+            {
+              "type": "fix",
+              "section": "Bug Fixes"
+            },
+            {
+              "type": "refactor",
+              "section": "Changes"
+            },
+            {
+              "type": "chore",
+              "section": "Maintenance"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "devDependencies": {
+    "@commitlint/cli": "17.3.0",
+    "@commitlint/config-conventional": "17.3.0",
+    "@release-it/conventional-changelog": "5.1.1",
+    "@types/react": "18.0.25",
+    "@types/react-dom": "18.0.9",
+    "@typescript-eslint/eslint-plugin": "5.45.1",
+    "@typescript-eslint/parser": "5.45.1",
+    "copyfiles": "2.4.1",
+    "cssnano": "5.1.14",
+    "eslint": "8.29.0",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-jest": "27.1.5",
+    "eslint-plugin-jsx-a11y": "6.6.1",
+    "eslint-plugin-prettier": "4.2.1",
+    "eslint-plugin-react": "7.31.11",
+    "eslint-plugin-react-hooks": "4.6.0",
+    "husky": "8.0.2",
+    "identity-obj-proxy": "3.0.0",
+    "is-ci": "3.0.1",
+    "postcss": "8.4.19",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-to-webcomponent": "2.0.0-alpha.0",
+    "release-it": "15.5.0",
+    "rimraf": "3.0.2",
+    "stylelint": "14.15.0",
+    "stylelint-config-idiomatic-order": "9.0.0",
+    "stylelint-config-prettier": "9.0.4",
+    "stylelint-config-recommended": "9.0.0",
+    "typescript": "4.9.3"
+  },
+  "dependencies": {
+    "@memori.ai/memori-react": "^1.0.0-alpha.3"
+  }
+}
