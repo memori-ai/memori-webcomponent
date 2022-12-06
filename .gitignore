@@ -3,6 +3,7 @@
 .DS_Store
 node_modules
 .cache
+dist
 storybook-static
 tsconfig.tsbuildinfo
 coverage
