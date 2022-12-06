@@ -36,7 +36,13 @@
     }
   },
   "scripts": {
-    "clean": "rimraf dist esm"
+    "build": "tsc --outDir dist",
+    "clean": "rimraf dist esm",
+    "format": "prettier --write src",
+    "lint": "eslint --ignore-path .gitignore \"src/**/*.+(ts|js|tsx)\"",
+    "prepare": "yarn build && yarn prepare:husky",
+    "prepare:husky": "is-ci || husky install",
+    "typecheck": "tsc --noEmit"
   },
   "prettier": {
     "printWidth": 80,
