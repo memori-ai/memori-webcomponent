@@ -8,6 +8,7 @@ Platforms:
 - [TwinCreator](https://app.twincreator.com/en): developer-oriented platform
 
 Uses [memori-react](https://github.com/memori-ai/memori-react) under the hood.
+See [demo](https://memori-ai.github.io/memori-webcomponent/example/).
 
 ## Work in progress
 
