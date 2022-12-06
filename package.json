@@ -3,12 +3,9 @@
   "version": "0.1.0",
   "description": "WebComponent to integrate a Memori in your app or website",
   "author": "Memori Srl",
-  "main": "dist/index.js",
-  "module": "esm/index.js",
-  "types": "./dist/index.d.ts",
+  "source": "src/index.tsx",
   "files": [
     "dist",
-    "esm",
     "src"
   ],
   "license": "Apache-2.0",
@@ -30,14 +27,10 @@
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "tsdx lint"
-    }
-  },
   "scripts": {
-    "build": "tsc --outDir dist",
-    "clean": "rimraf dist esm",
+    "prebuild": "yarn clean",
+    "build": "parcel build --no-content-hash --no-source-maps --dist-dir dist && mv dist/index.js dist/memori-webcomponent.js && mv dist/index.css dist/memori-webcomponent.css",
+    "clean": "rimraf dist",
     "format": "prettier --write src",
     "lint": "eslint --ignore-path .gitignore \"src/**/*.+(ts|js|tsx)\"",
     "prepare": "yarn build && yarn prepare:husky",
@@ -171,13 +164,15 @@
   "devDependencies": {
     "@commitlint/cli": "17.3.0",
     "@commitlint/config-conventional": "17.3.0",
+    "@parcel/packager-ts": "2.8.0",
+    "@parcel/transformer-typescript-types": "2.8.0",
     "@release-it/conventional-changelog": "5.1.1",
     "@types/react": "18.0.25",
     "@types/react-dom": "18.0.9",
     "@typescript-eslint/eslint-plugin": "5.45.1",
     "@typescript-eslint/parser": "5.45.1",
-    "copyfiles": "2.4.1",
-    "cssnano": "5.1.14",
+    "buffer": "^5.5.0",
+    "crypto-browserify": "^3.12.0",
     "eslint": "8.29.0",
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-import": "2.26.0",
@@ -186,22 +181,30 @@
     "eslint-plugin-prettier": "4.2.1",
     "eslint-plugin-react": "7.31.11",
     "eslint-plugin-react-hooks": "4.6.0",
+    "events": "^3.1.0",
+    "https-browserify": "^1.0.0",
     "husky": "8.0.2",
     "identity-obj-proxy": "3.0.0",
     "is-ci": "3.0.1",
-    "postcss": "8.4.19",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "react-to-webcomponent": "2.0.0-alpha.0",
+    "parcel": "2.8.0",
+    "process": "^0.11.10",
+    "punycode": "^1.4.1",
+    "querystring-es3": "^0.2.1",
     "release-it": "15.5.0",
     "rimraf": "3.0.2",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.1.0",
     "stylelint": "14.15.0",
     "stylelint-config-idiomatic-order": "9.0.0",
     "stylelint-config-prettier": "9.0.4",
     "stylelint-config-recommended": "9.0.0",
-    "typescript": "4.9.3"
+    "typescript": "4.9.3",
+    "url": "^0.11.0",
+    "util": "^0.12.3"
   },
   "dependencies": {
-    "@memori.ai/memori-react": "^1.0.0-alpha.3"
+    "@memori.ai/memori-react": "^1.0.0-alpha.3",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
   }
 }

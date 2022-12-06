@@ -1,12 +1,24 @@
 import React from 'react';
-import * as ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom';
 
 import Memori from '@memori.ai/memori-react';
 
 class MemoriWebComponent extends HTMLElement {
   connectedCallback() {
+    const wrapper = document.createElement('div');
+
     const mountPoint = document.createElement('div');
-    this.attachShadow({ mode: 'open' }).appendChild(mountPoint);
+    mountPoint.setAttribute('id', 'memori-root');
+
+    const styles = document.createElement('style');
+    styles.innerHTML = `
+      @import url('https://unpkg.com/@memori.ai/memori-webcomponent/dist/memori-webcomponent.css');
+    `;
+
+    wrapper.appendChild(styles);
+    wrapper.appendChild(mountPoint);
+
+    this.attachShadow({ mode: 'open' }).appendChild(wrapper);
 
     const props = Object.keys(
       Memori.propTypes as { [key: string]: any }
@@ -19,12 +31,11 @@ class MemoriWebComponent extends HTMLElement {
     const tenantID = this.getAttribute('tenantId');
 
     if (tenantID) {
-      const root = ReactDOM.createRoot(mountPoint);
-      root.render(<Memori {...props} tenantID={tenantID} />);
+      ReactDOM.render(<Memori {...props} tenantID={tenantID} />, mountPoint);
     } else {
       console.error('No tenantId attribute found');
     }
   }
 }
 
-customElements.define('memori', MemoriWebComponent);
+customElements.define('memori-client', MemoriWebComponent);
