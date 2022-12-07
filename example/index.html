@@ -8,7 +8,15 @@
 
         <script type="module" src="https://unpkg.com/@memori.ai/memori-webcomponent/dist/memori-webcomponent.js"></script>
     </head>
-    <body>
+    <body style="position: relative; padding: 0; margin: 0; box-sizing: border-box;">
+        <div style="position: fixed;width: 100%;z-index: 1000;background: #fff; padding: 1rem; margin: 0.5rem; border-radius: 10px;">
+            <p style="margin: 0 0 0.5rem;">This is a demo, some functionalities as STT and TTS depend on additional subscription keys so they might not work.</p>
+            <nav>
+                <a href="https://app.twincreator.com/en" target="_blank" style="display: inline-block; margin-right: 0.5rem">TwinCreator</a>
+                <a href="https://app.memorytwin.com/en" target="_blank" style="display: inline-block; margin-right: 0.5rem">MemoryTwin</a>
+                <a href="https://github.com/memori-ai/memori-webcomponent" target="_blank" style="display: inline-block; margin-right: 0.5rem">GitHub</a>
+            </nav>
+        </div>
         <memori-client
             memoriName="Nicola"
             ownerUserName="nzambello"
