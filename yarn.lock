@@ -384,22 +384,22 @@
   resolved "https://registry.yarnpkg.com/@lmdb/lmdb-win32-x64/-/lmdb-win32-x64-2.5.2.tgz#28f643fbc0bec30b07fbe95b137879b6b4d1c9c5"
   integrity sha512-zrBczSbXKxEyK2ijtbRdICDygRqWSRPpZMN5dD1T8VMEW5RIhIbwFWw2phDRXuBQdVDpSjalCIUMWMV2h3JaZA==
 
-"@memori.ai/memori-api-client@^0.4.5":
-  version "0.4.5"
-  resolved "https://registry.yarnpkg.com/@memori.ai/memori-api-client/-/memori-api-client-0.4.5.tgz#39aec997c1877ce0fffab6ec17a8f34883a321d4"
-  integrity sha512-uSSLXpYgOduuT+4UYPRorcI1JbrP8gcD+DzKrrLTIg7La/Cql28e5oAPb1p5XDwj7Kq2NSPTEpXoq7SsnlTq/g==
+"@memori.ai/memori-api-client@^0.4.6":
+  version "0.4.6"
+  resolved "https://registry.yarnpkg.com/@memori.ai/memori-api-client/-/memori-api-client-0.4.6.tgz#f2f44c933ecb7939ebbc769e2fdc14baf46171c7"
+  integrity sha512-j/3etMib0YpxcafitX6yKU66o59Dcvom5KYIYu9STh67QKlg+FgyyNA7lY5kJlxDifX6HO2Y3Qi76ySTzrNFRA==
   dependencies:
     cross-fetch "^3.1.5"
     microsoft-cognitiveservices-speech-sdk "1.22.0"
 
-"@memori.ai/memori-react@^1.0.0-alpha.3":
-  version "1.0.0-alpha.3"
-  resolved "https://registry.yarnpkg.com/@memori.ai/memori-react/-/memori-react-1.0.0-alpha.3.tgz#519ffed931a681db8c4ee7cd5a162e5a2df8759d"
-  integrity sha512-JqMdb1bxNHpGFMvJTuasnyZ+X+n4/eB0rdR14QFLVKtfS9QbXtHXBS4QN3MMTH0L+fJhYbFBf9mt/puEet9pbw==
+"@memori.ai/memori-react@^1.0.0-alpha.6":
+  version "1.0.0-alpha.6"
+  resolved "https://registry.yarnpkg.com/@memori.ai/memori-react/-/memori-react-1.0.0-alpha.6.tgz#d931275a612a4553a49a0127660667944fa776aa"
+  integrity sha512-+nYjf9xibY4EBQmhqD4Pv42O5lnZVnDzPiIEC2pNB312YNuX4FQ35kNdNkrcwYcLlNGQc/54DLw/Cj3NMOwGIQ==
   dependencies:
     "@fontsource/exo-2" "^4.5.10"
     "@headlessui/react" "1.7.4"
-    "@memori.ai/memori-api-client" "^0.4.5"
+    "@memori.ai/memori-api-client" "^0.4.6"
     "@react-three/drei" "8.20.2"
     "@react-three/fiber" "7.0.25"
     classnames "2.3.2"
