@@ -36,7 +36,7 @@ npm install @memori.ai/memori-webcomponent
 ## Usage
 
 ```html
-<memori-webcomponent
+<memori-client
   memoriName="Memori"
   ownerUserName="nunziofiore"
   tenantID="app.memorytwin.com"
