@@ -10,10 +10,6 @@ Platforms:
 Uses [memori-react](https://github.com/memori-ai/memori-react) under the hood.
 See [demo](https://memori-ai.github.io/memori-webcomponent/example/).
 
-## Work in progress
-
-This library is still in development and is not ready for production.
-
 ## Installation from npm
 
 ```bash
@@ -24,7 +20,7 @@ yarn add @memori.ai/memori-webcomponent
 npm install @memori.ai/memori-webcomponent
 ```
 
-### Embed or usage from CDN
+## Embed or usage from CDN
 
 ```html
 <script
@@ -46,6 +42,8 @@ npm install @memori.ai/memori-webcomponent
   uiLang="it"
 />
 ```
+
+For more details on attributes, see [memori-react](https://github.com/memori-ai/memori-react) component props.
 
 ## See also
 
