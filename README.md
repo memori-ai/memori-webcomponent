@@ -45,6 +45,9 @@ npm install @memori.ai/memori-webcomponent
 
 For more details on attributes, see [memori-react](https://github.com/memori-ai/memori-react) component props.
 
+Special note for `height`: defaults to `100%` and can be set to a fixed value (e.g. `500px`).
+For the best experience, it is recommended to set it to '100vh' (full height of the viewport) or '100svh'.
+
 ## See also
 
 - [memori-api-client](https://github.com/memori-ai/memori-api-client) - API client for Memori
