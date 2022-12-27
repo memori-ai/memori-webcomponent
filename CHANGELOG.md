@@ -1,5 +1,16 @@
 
 
+## [1.0.0](https://github.com/memori-ai/memori-webcomponent/compare/v0.1.6...v1.0.0) (2022-12-27)
+
+
+### ⚠ BREAKING CHANGES
+
+* remove shadowroot usage
+
+### Changes
+
+* remove shadowroot usage ([1482b84](https://github.com/memori-ai/memori-webcomponent/commit/1482b84e5f4e53ed79ff6acc9c630996b9e7e11e))
+
 ## [0.1.6](https://github.com/memori-ai/memori-webcomponent/compare/v0.1.5...v0.1.6) (2022-12-23)
 
 
