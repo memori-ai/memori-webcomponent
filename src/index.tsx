@@ -18,7 +18,8 @@ class MemoriWebComponent extends HTMLElement {
     wrapper.appendChild(styles);
     wrapper.appendChild(mountPoint);
 
-    this.attachShadow({ mode: 'open' }).appendChild(wrapper);
+    // this.attachShadow({ mode: 'open' }).appendChild(wrapper);
+    this.appendChild(wrapper);
 
     const props = Object.keys(
       Memori.propTypes as { [key: string]: any }
