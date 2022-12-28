@@ -392,10 +392,10 @@
     cross-fetch "^3.1.5"
     microsoft-cognitiveservices-speech-sdk "1.22.0"
 
-"@memori.ai/memori-react@^1.0.0-alpha.11":
-  version "1.0.0-alpha.11"
-  resolved "https://registry.yarnpkg.com/@memori.ai/memori-react/-/memori-react-1.0.0-alpha.11.tgz#df6666f12919501e456c835222f1203d3edaa1a4"
-  integrity sha512-rhDEgxAeY4Trf0WHxk8VKqpqL9GGj2ZnQz2OtikSdhmKIeigBhgqjvFWy0wICz8SalDiAYQzXg1k0skDlczmvg==
+"@memori.ai/memori-react@^1.0.0-alpha.12":
+  version "1.0.0-alpha.12"
+  resolved "https://registry.yarnpkg.com/@memori.ai/memori-react/-/memori-react-1.0.0-alpha.12.tgz#09809205f346f18a93082fb062bfbec7b6f2ba85"
+  integrity sha512-ncjpoaZZk278zunDLD4bPR/wFhJgiKcc9ZaiaAruZlj1KngMoW/hJ6PPgEXOC3hYD6dzae2SA0Aoyx2CNCB34A==
   dependencies:
     "@fontsource/exo-2" "^4.5.10"
     "@headlessui/react" "1.7.4"
