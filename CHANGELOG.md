@@ -1,5 +1,17 @@
 
 
+## [1.0.2](https://github.com/memori-ai/memori-webcomponent/compare/v1.0.1...v1.0.2) (2023-01-05)
+
+
+### Bug Fixes
+
+* context vars attr parsing ([f148f7a](https://github.com/memori-ai/memori-webcomponent/commit/f148f7a29eb7308c350e3ef2bfd8c37a2d093a5d))
+
+
+### Maintenance
+
+* update memori-react ([623374d](https://github.com/memori-ai/memori-webcomponent/commit/623374dda6299700e217fa21b0bdbb023379e100))
+
 ## [1.0.1](https://github.com/memori-ai/memori-webcomponent/compare/v1.0.0...v1.0.1) (2022-12-28)
 
 
