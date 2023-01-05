@@ -48,6 +48,15 @@ For more details on attributes, see [memori-react](https://github.com/memori-ai/
 Special note for `height`: defaults to `100%` and can be set to a fixed value (e.g. `500px`).
 For the best experience, it is recommended to set it to '100vh' (full height of the viewport) or '100svh'.
 
+### Initial context
+
+As for [memori-react](https://github.com/memori-ai/memori-react) component, it is possible to pass an initial context to the Memori session.
+With this WebComponent that is slightly different, as the context is not passed as a JSON but as a string in the `context` attribute as comma-separated `KEY:VALUE` pairs:
+
+```html
+<memori-client ... context="VAR1:VALUE1,VAR2:VALUE2" />
+```
+
 ## See also
 
 - [memori-api-client](https://github.com/memori-ai/memori-api-client) - API client for Memori

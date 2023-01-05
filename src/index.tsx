@@ -30,9 +30,17 @@ class MemoriWebComponent extends HTMLElement {
       return acc;
     }, {});
     const tenantID = this.getAttribute('tenantId');
+    const context = this.getAttribute('context');
+    const parsedContext = context?.split(',')?.reduce((acc, cur) => {
+      const [key, value] = cur.split(':').map(t => t.trim());
+      return { ...acc, [key]: value };
+    }, {});
 
     if (tenantID) {
-      ReactDOM.render(<Memori {...props} tenantID={tenantID} />, mountPoint);
+      ReactDOM.render(
+        <Memori {...props} context={parsedContext} tenantID={tenantID} />,
+        mountPoint
+      );
     } else {
       console.error('No tenantId attribute found');
     }
