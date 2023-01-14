@@ -453,22 +453,22 @@
   resolved "https://registry.yarnpkg.com/@lmdb/lmdb-win32-x64/-/lmdb-win32-x64-2.5.2.tgz#28f643fbc0bec30b07fbe95b137879b6b4d1c9c5"
   integrity sha512-zrBczSbXKxEyK2ijtbRdICDygRqWSRPpZMN5dD1T8VMEW5RIhIbwFWw2phDRXuBQdVDpSjalCIUMWMV2h3JaZA==
 
-"@memori.ai/memori-api-client@^0.8.1":
-  version "0.8.1"
-  resolved "https://registry.yarnpkg.com/@memori.ai/memori-api-client/-/memori-api-client-0.8.1.tgz#d7ac0809636aefa650f610749d08e6d0d7e08c22"
-  integrity sha512-U6Rd1OWGR/X90tQVc6nVclCGps8zqhl6n/iN5Ta4FCYlOgOq0UZavnyetCcdhQ/QjhhKiOS5aWTxEazrs6DZCg==
+"@memori.ai/memori-api-client@^0.8.3":
+  version "0.8.3"
+  resolved "https://registry.yarnpkg.com/@memori.ai/memori-api-client/-/memori-api-client-0.8.3.tgz#862e8096542a9f08f689126638de84d219ec3252"
+  integrity sha512-iwr7uYJVMBkjkv501gnx4PlOfrbEsBdbiFO8XPJHU8qGngq5158hUvxt8kEwOvjUpM4JaXgC7saT0Q4F86jcoQ==
   dependencies:
     cross-fetch "^3.1.5"
-    microsoft-cognitiveservices-speech-sdk "1.22.0"
+    microsoft-cognitiveservices-speech-sdk "1.20.0"
 
-"@memori.ai/memori-react@^1.0.0-alpha.20":
-  version "1.0.0-alpha.20"
-  resolved "https://registry.yarnpkg.com/@memori.ai/memori-react/-/memori-react-1.0.0-alpha.20.tgz#6f52e43b03e24dc4a646d427cd47986840f6cd98"
-  integrity sha512-mWYm142dYqUyEqSlZ/rAtpUaazn1JyFl5RtDufJEgjupGVhIlOPGP5gK+Q8DSRu7nvEeVYPG9WnmVxbqG3D/Hw==
+"@memori.ai/memori-react@^1.0.0-alpha.21":
+  version "1.0.0-alpha.21"
+  resolved "https://registry.yarnpkg.com/@memori.ai/memori-react/-/memori-react-1.0.0-alpha.21.tgz#17f08ddaa6536ea71387134cbf3f4501eb17e812"
+  integrity sha512-CVbXbNXxM0xrbr7UKG+wdB4wIQBL3RusirtTm6BbvR7RssV+s4rt6AYypkf00GxzKJ4poLL9lHlkEEAWuLJ0iw==
   dependencies:
     "@fontsource/exo-2" "^4.5.10"
     "@headlessui/react" "1.7.4"
-    "@memori.ai/memori-api-client" "^0.8.1"
+    "@memori.ai/memori-api-client" "^0.8.3"
     "@react-three/drei" "8.20.2"
     "@react-three/fiber" "7.0.25"
     antd "5.1.4"
@@ -476,7 +476,7 @@
     classnames "2.3.2"
     ellipsed "1.6.0"
     i18next "22.0.6"
-    microsoft-cognitiveservices-speech-sdk "1.22.0"
+    microsoft-cognitiveservices-speech-sdk "1.20.0"
     qrcode.react "3.1.0"
     react-hook-form "7.39.5"
     react-i18next "12.0.0"
@@ -5133,10 +5133,10 @@ micromatch@^4.0.4, micromatch@^4.0.5:
     braces "^3.0.2"
     picomatch "^2.3.1"
 
-microsoft-cognitiveservices-speech-sdk@1.22.0:
-  version "1.22.0"
-  resolved "https://registry.yarnpkg.com/microsoft-cognitiveservices-speech-sdk/-/microsoft-cognitiveservices-speech-sdk-1.22.0.tgz#4c6f82147cbb364c5fa7478c7de691af781d6594"
-  integrity sha512-C1YV5jui3SD02DlmAlN+i7BKdBevETIbGxmkpFy/19yefja14Y7zOR/Hh0qb+ixuU49tPXWmTf2cL+FZE4YD6Q==
+microsoft-cognitiveservices-speech-sdk@1.20.0:
+  version "1.20.0"
+  resolved "https://registry.yarnpkg.com/microsoft-cognitiveservices-speech-sdk/-/microsoft-cognitiveservices-speech-sdk-1.20.0.tgz#c592f1a5ef4fe2b03bcab74d4e13631151c42252"
+  integrity sha512-/KWNHQb36nhIkBr6HClh+T+gHicgmC5JKJhCnQmL6XGAAndLtew0aRbh7cMK10IFNTgozGKiejhrfnwiYH3IBA==
   dependencies:
     agent-base "^6.0.1"
     asn1.js-rfc2560 "^5.0.1"
@@ -5145,6 +5145,7 @@ microsoft-cognitiveservices-speech-sdk@1.22.0:
     bent "^7.3.12"
     https-proxy-agent "^4.0.0"
     simple-lru-cache "0.0.2"
+    url-parse "^1.4.7"
     uuid "^8.3.0"
     ws "^7.5.6"
 
@@ -6046,6 +6047,11 @@ querystring@0.2.0:
   resolved "https://registry.yarnpkg.com/querystring/-/querystring-0.2.0.tgz#b209849203bb25df820da756e747005878521620"
   integrity sha512-X/xY82scca2tau62i9mDyU9K+I+djTMUsvwf7xnUX5GLvVzgJybOJf4Y6o9Zx3oJK/LSXg5tTZBjwzqVPaPO2g==
 
+querystringify@^2.1.1:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/querystringify/-/querystringify-2.2.0.tgz#3345941b4153cb9d082d8eee4cda2016a9aef7f6"
+  integrity sha512-FIqgj2EUvTa7R50u0rGsyTftzjYmv/a3hO345bZNrqabNqjtgiDMgmo4mkUjd+nzU5oF3dClKqFIPUKybUyqoQ==
+
 queue-microtask@^1.2.2:
   version "1.2.3"
   resolved "https://registry.yarnpkg.com/queue-microtask/-/queue-microtask-1.2.3.tgz#4929228bbc724dfac43e0efb058caf7b6cfb6243"
@@ -6735,6 +6741,11 @@ require-from-string@^2.0.2:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/require-from-string/-/require-from-string-2.0.2.tgz#89a7fdd938261267318eafe14f9c32e598c36909"
   integrity sha512-Xf0nWe6RseziFMu+Ap9biiUbmplq6S9/p+7w7YXP/JBHhrUDDUhwa+vANyubuqfZWTveU//DYVGsDG7RKL/vEw==
+
+requires-port@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/requires-port/-/requires-port-1.0.0.tgz#925d2601d39ac485e091cf0da5c6e694dc3dcaff"
+  integrity sha512-KigOCHcocU3XODJxsu8i/j8T9tzT4adHiecwORRQ0ZZFcp7ahwXuRU1m+yuO90C5ZUyGeGfocHDI14M3L3yDAQ==
 
 resize-observer-polyfill@^1.5.1:
   version "1.5.1"
@@ -7733,6 +7744,14 @@ url-join@5.0.0:
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/url-join/-/url-join-5.0.0.tgz#c2f1e5cbd95fa91082a93b58a1f42fecb4bdbcf1"
   integrity sha512-n2huDr9h9yzd6exQVnH/jU5mr+Pfx08LRXXZhkLLetAMESRj+anQsTAh940iMrIetKAmry9coFuZQ2jY8/p3WA==
+
+url-parse@^1.4.7:
+  version "1.5.10"
+  resolved "https://registry.yarnpkg.com/url-parse/-/url-parse-1.5.10.tgz#9d3c2f736c1d75dd3bd2be507dcc111f1e2ea9c1"
+  integrity sha512-WypcfiRhfeUP9vvF0j6rw0J3hrWrw6iZv3+22h6iRMJ/8z1Tj6XfLP4DsUix5MhMPnXpiHDoKyoZ/bdCkwBCiQ==
+  dependencies:
+    querystringify "^2.1.1"
+    requires-port "^1.0.0"
 
 url@^0.11.0:
   version "0.11.0"
