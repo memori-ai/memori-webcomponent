@@ -6,7 +6,10 @@
   "source": "src/index.tsx",
   "files": [
     "dist",
-    "src"
+    "src",
+    "CHANGELOG.md",
+    "LICENSE",
+    "README.md"
   ],
   "license": "Apache-2.0",
   "homepage": "https://github.com/memori-ai/memori-webcomponent#readme",
@@ -29,7 +32,7 @@
   },
   "scripts": {
     "prebuild": "yarn clean",
-    "build": "parcel build --no-content-hash --no-source-maps --dist-dir dist && mv dist/index.js dist/memori-webcomponent.js && mv dist/index.css dist/memori-webcomponent.css",
+    "build": "parcel build --no-content-hash --no-source-maps --dist-dir dist && mv dist/index.js dist/memori-webcomponent.js",
     "clean": "rimraf dist",
     "format": "prettier --write src",
     "lint": "eslint --ignore-path .gitignore \"src/**/*.+(ts|js|tsx)\"",
@@ -203,7 +206,7 @@
     "util": "^0.12.3"
   },
   "dependencies": {
-    "@memori.ai/memori-react": "^1.0.0-alpha.24",
+    "@memori.ai/memori-react": "^1.0.1",
     "react": "17.0.2",
     "react-dom": "17.0.2"
   }

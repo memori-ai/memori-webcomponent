@@ -27,6 +27,10 @@ npm install @memori.ai/memori-webcomponent
   type="module"
   src="https://unpkg.com/@memori.ai/memori-webcomponent/dist/memori-webcomponent.js"
 ></script>
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/@memori.ai/memori-react/dist/styles.css"
+/>
 ```
 
 ## Usage

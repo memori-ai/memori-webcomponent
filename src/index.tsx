@@ -10,12 +10,12 @@ class MemoriWebComponent extends HTMLElement {
     const mountPoint = document.createElement('div');
     mountPoint.setAttribute('id', 'memori-root');
 
-    const styles = document.createElement('style');
-    styles.innerHTML = `
-      @import url('https://unpkg.com/@memori.ai/memori-webcomponent/dist/memori-webcomponent.css');
-    `;
+    // const styles = document.createElement('style');
+    // styles.innerHTML = `
+    //   @import url('https://unpkg.com/@memori.ai/memori-react@1.0.0-rc.4/dist/styles.css');
+    // `;
 
-    wrapper.appendChild(styles);
+    // wrapper.appendChild(styles);
     wrapper.appendChild(mountPoint);
 
     // this.attachShadow({ mode: 'open' }).appendChild(wrapper);
