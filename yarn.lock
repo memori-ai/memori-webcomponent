@@ -444,10 +444,10 @@
   dependencies:
     cross-fetch "^3.1.5"
 
-"@memori.ai/memori-react@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@memori.ai/memori-react/-/memori-react-1.0.1.tgz#f806dbf00e098c0db9a6c7f00e11790e4d7715d8"
-  integrity sha512-PqpQGJErJkCm285ryFKELJZxAm8XGEGAM6arI2hBolGCA3fDcHSeSRUmpsLtxHF/RwnI2VheEVMFqLjE994RsQ==
+"@memori.ai/memori-react@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@memori.ai/memori-react/-/memori-react-1.0.2.tgz#fe8ee752cd163d6748b784e96ba6668065570c04"
+  integrity sha512-v5Ynt2bW3/l6ODqvWELE32sR6WuyvLZNfElXZERnxSucCC1x2VcWq2X2h62LnMDeoM/nZas+zESFtQYnUnTdMg==
   dependencies:
     "@fontsource/exo-2" "^4.5.10"
     "@headlessui/react" "1.7.4"
