@@ -1,5 +1,12 @@
 
 
+## [2.0.2](https://github.com/memori-ai/memori-webcomponent/compare/v2.0.1...v2.0.2) (2023-03-25)
+
+
+### Maintenance
+
+* migrate to yarn 3, update memori-react ([f1e0a73](https://github.com/memori-ai/memori-webcomponent/commit/f1e0a7306001f7ffb7a475b76c9a7e4f0235f19e))
+
 ## [2.0.1](https://github.com/memori-ai/memori-webcomponent/compare/v2.0.0...v2.0.1) (2023-03-03)
 
 
