@@ -13,23 +13,19 @@ See [demo](https://memori-ai.github.io/memori-webcomponent/example/).
 ## Installation from npm
 
 ```bash
-yarn add @memori.ai/memori-webcomponent
+npm i --save @memori.ai/memori-webcomponent
 ```
 
-```bash
-npm install @memori.ai/memori-webcomponent
-```
-
-## Embed or usage from CDN
+## Embed or usage from CDN (suggested)
 
 ```html
 <script
   type="module"
-  src="https://unpkg.com/@memori.ai/memori-webcomponent/dist/memori-webcomponent.js"
+  src="https://esm.run/@memori.ai/memori-webcomponent/dist/memori-webcomponent.js"
 ></script>
 <link
   rel="stylesheet"
-  href="https://unpkg.com/@memori.ai/memori-react/dist/styles.css"
+  href="https://esm.run/@memori.ai/memori-react/dist/styles.css"
 />
 ```
 
