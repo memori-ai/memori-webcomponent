@@ -7,11 +7,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Memori WebComponent Example</title>
 
-  <script type="module" src="https://unpkg.com/@memori.ai/memori-webcomponent/dist/memori-webcomponent.js"></script>
+  <script
+    type="module"
+    src="https://esm.run/@memori.ai/memori-webcomponent/dist/memori-webcomponent.js"
+  ></script>
   <!-- <script defer type="module" src="../dist/memori-webcomponent.js"></script> -->
   <link
     rel="stylesheet"
-    href="https://unpkg.com/@memori.ai/memori-react/dist/styles.css"
+    href="https://cdn.jsdelivr.net/npm/@memori.ai/memori-react@2.0.3/dist/styles.min.css"
   />
 </head>
 
@@ -52,7 +55,7 @@
         style="display: inline-block; margin-right: 0.5rem">GitHub</a>
     </nav>
   </div>
-  <memori-client memoriName="Memori" ownerUserName="nunziofiore" tenantID="app.memorytwin.com" showShare
+  <memori-client layout="TOTEM" memoriName="Memori" ownerUserName="nunziofiore" tenantID="app.memorytwin.com" showShare
     apiURL="https://backend.memori.ai" baseURL="https://app.memorytwin.com" uiLang="it" height="100vh" />
 </body>
 
