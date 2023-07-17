@@ -1,6 +1,13 @@
 import ReactDOM from 'react-dom';
-
 import Memori from '@memori.ai/memori-react';
+
+const parseJSONsafe = (json: string): { [key: string]: any } | null => {
+  try {
+    return JSON.parse(json);
+  } catch (e) {
+    return null;
+  }
+};
 
 class MemoriWebComponent extends HTMLElement {
   connectedCallback() {
@@ -34,10 +41,17 @@ class MemoriWebComponent extends HTMLElement {
       const [key, value] = cur.split(':').map(t => t.trim());
       return { ...acc, [key]: value };
     }, {});
+    const additionalInfo =
+      parseJSONsafe(this.getAttribute('additionalInfo') || '{}') || {};
 
     if (tenantID) {
       ReactDOM.render(
-        <Memori {...props} context={parsedContext} tenantID={tenantID} />,
+        <Memori
+          {...props}
+          context={parsedContext}
+          tenantID={tenantID}
+          additionalInfo={additionalInfo}
+        />,
         mountPoint
       );
     } else {
