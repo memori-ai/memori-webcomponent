@@ -1,5 +1,12 @@
 
 
+## [2.7.1](https://github.com/memori-ai/memori-webcomponent/compare/v2.7.0...v2.7.1) (2023-07-17)
+
+
+### Bug Fixes
+
+* additionalInfo json parsing ([175b733](https://github.com/memori-ai/memori-webcomponent/commit/175b733cb0a3bce638507fccee4c64b3c72273e4))
+
 ## [2.7.0](https://github.com/memori-ai/memori-webcomponent/compare/v2.6.6...v2.7.0) (2023-07-17)
 
 
