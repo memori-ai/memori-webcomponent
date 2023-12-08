@@ -1,5 +1,7 @@
 
 
+## [2.22.0](https://github.com/memori-ai/memori-webcomponent/compare/v2.21.0...v2.22.0) (2023-12-08)
+
 ## [2.21.0](https://github.com/memori-ai/memori-webcomponent/compare/v2.20.3...v2.21.0) (2023-12-06)
 
 
