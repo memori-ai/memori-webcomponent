@@ -1,25 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Memori WebComponent Example</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Memori WebComponent Example</title>
 
-  <script
-    type="module"
-    src="https://esm.run/@memori.ai/memori-webcomponent@2.0.5/dist/memori-webcomponent.js"
-  ></script>
-  <!-- <script defer type="module" src="../dist/memori-webcomponent.js"></script> -->
-  <link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/@memori.ai/memori-react@2.0.4/dist/styles.min.css"
-  />
-</head>
+<!--     <script type="module"
+      src="https://esm.run/@memori.ai/memori-webcomponent@latest/dist/memori-webcomponent.js"></script> -->
+    <script defer type="module" src="../dist/memori-webcomponent.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@memori.ai/memori-react@latest/dist/styles.min.css" />
+  </head>
 
-<body style="position: relative; padding: 0; margin: 0; box-sizing: border-box">
-  <div id="demo-disclaimer" style="
+  <body style="position: relative; padding: 0; margin: 0; box-sizing: border-box">
+    <div id="demo-disclaimer" style="
         position: fixed;
         width: calc(100% - 1rem);
         z-index: 1000;
@@ -30,7 +25,7 @@
         font-family: 'Exo 2', sans-serif;
         box-sizing: border-box;
       ">
-    <button style="
+      <button style="
           position: absolute;
           right: 0.5rem;
           top: 0.5rem;
@@ -40,23 +35,23 @@
           cursor: pointer;
           font-size: 1rem;
         " onclick="document.getElementById('demo-disclaimer').remove()">
-      X
-    </button>
-    <p style="margin: 0 0 0.5rem">
-      This is a demo, some functionalities as STT and TTS depend on additional
-      subscription keys so they might not work.
-    </p>
-    <nav>
-      <a href="https://app.twincreator.com/en" target="_blank"
-        style="display: inline-block; margin-right: 0.5rem">TwinCreator</a>
-      <a href="https://app.memorytwin.com/en" target="_blank"
-        style="display: inline-block; margin-right: 0.5rem">MemoryTwin</a>
-      <a href="https://github.com/memori-ai/memori-webcomponent" target="_blank"
-        style="display: inline-block; margin-right: 0.5rem">GitHub</a>
-    </nav>
-  </div>
-  <memori-client memoriName="Memori" ownerUserName="nunziofiore" tenantID="app.memorytwin.com" showShare
-    apiURL="https://backend.memori.ai" baseURL="https://app.memorytwin.com" uiLang="it" height="100vh" />
-</body>
+        X
+      </button>
+      <p style="margin: 0 0 0.5rem">
+        This is a demo, some functionalities as STT and TTS depend on additional
+        subscription keys so they might not work.
+      </p>
+      <nav>
+        <a href="https://app.twincreator.com/en" target="_blank"
+          style="display: inline-block; margin-right: 0.5rem">TwinCreator</a>
+        <a href="https://app.memorytwin.com/en" target="_blank"
+          style="display: inline-block; margin-right: 0.5rem">MemoryTwin</a>
+        <a href="https://github.com/memori-ai/memori-webcomponent" target="_blank"
+          style="display: inline-block; margin-right: 0.5rem">GitHub</a>
+      </nav>
+    </div>
+    <memori-client memoriName="Memori" ownerUserName="memoridev" tenantID="app.twincreator.com" showShare
+      apiURL="https://backend.memori.ai" baseURL="https://app.twincreator.com" uiLang="it" height="100vh" />
+  </body>
 
 </html>
