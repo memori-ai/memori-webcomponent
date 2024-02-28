@@ -21,7 +21,7 @@ npm i --save @memori.ai/memori-webcomponent
 ```html
 <script
   type="module"
-  src="https://esm.run/@memori.ai/memori-webcomponent/dist/memori-webcomponent.js"
+  src="https://cdn.jsdelivr.net/npm/@memori.ai/memori-webcomponent/dist/memori-webcomponent.js"
 ></script>
 <link
   rel="stylesheet"
