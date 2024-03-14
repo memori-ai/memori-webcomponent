@@ -25,6 +25,10 @@ class MemoriWebComponent extends HTMLElement {
     ).reduce<{ [key: string]: any }>((acc, key) => {
       if (this.hasAttribute(key)) {
         acc[key] = this.getAttribute(key);
+
+        if (acc[key] === 'true' || acc[key] === 'false') {
+          acc[key] = acc[key] === 'true';
+        }
       }
       return acc;
     }, {});
