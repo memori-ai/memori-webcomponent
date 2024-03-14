@@ -1,5 +1,12 @@
 
 
+## [6.0.0-rc.1](https://github.com/memori-ai/memori-webcomponent/compare/v6.0.0-rc.0...v6.0.0-rc.1) (2024-03-14)
+
+
+### Bug Fixes
+
+* parse boolean string attributes as bool ([ce22124](https://github.com/memori-ai/memori-webcomponent/commit/ce221245f1d25710465f5ac2bc8baadd32dee8bf))
+
 ## [6.0.0-rc.0](https://github.com/memori-ai/memori-webcomponent/compare/v5.1.0...v6.0.0-rc.0) (2024-03-14)
 
 
