@@ -1,5 +1,12 @@
 
 
+## [6.1.3](https://github.com/memori-ai/memori-webcomponent/compare/v6.1.2...v6.1.3) (2024-03-25)
+
+
+### Maintenance
+
+* update memori-react ([df9b275](https://github.com/memori-ai/memori-webcomponent/commit/df9b275e23be10b92522f10c18905341232cb57f))
+
 ## [6.1.2](https://github.com/memori-ai/memori-webcomponent/compare/v6.1.1...v6.1.2) (2024-03-19)
 
 
