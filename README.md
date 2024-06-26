@@ -34,12 +34,14 @@ npm i --save @memori.ai/memori-webcomponent
 ```html
 <memori-client
   memoriName="Memori"
-  ownerUserName="nunziofiore"
-  tenantID="app.memorytwin.com"
-  showShare
+  ownerUserName="memoridev"
+  tenantID="www.aisuru.com"
   apiURL="https://backend.memori.ai"
-  baseURL="https://app.memorytwin.com"
+  engineURL="https://engine.memori.ai"
+  baseURL="https://www.aisuru.com"
   uiLang="it"
+  multilingual="true"
+  showShare="true"
 />
 ```
 
