@@ -508,9 +508,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@memori.ai/memori-react@npm:^7.4.6":
-  version: 7.4.6
-  resolution: "@memori.ai/memori-react@npm:7.4.6"
+"@memori.ai/memori-react@npm:^7.5.0":
+  version: 7.5.0
+  resolution: "@memori.ai/memori-react@npm:7.5.0"
   dependencies:
     "@headlessui/react": 1.7.4
     "@memori.ai/memori-api-client": ^5.1.1
@@ -522,6 +522,7 @@ __metadata:
     i18next: 22.0.6
     katex: ^0.16.10
     leaflet: ^1.9.4
+    lil-gui: ^0.19.2
     luxon: ^3.4.4
     marked: ^11.1.0
     marked-katex-extension: ^5.0.1
@@ -539,7 +540,7 @@ __metadata:
   peerDependencies:
     react: ">=16"
     typescript: ">=4.8"
-  checksum: ccd3c8624b0660d22b499816ef615dbfcd1ec93a2dc0e858c9ee8ee559724bcd9c7457a0f56427b77dd34e159e025e714d2267428c6ff81f5953d6d9c7798ac7
+  checksum: a026f352e58146d7df27ed94b068bf74d3a765036d1869214fd71fb5392801b96dfe09efb7397cbe4ffe039c4132095be30a2b7ff97c23c94d997fa9e4f4318d
   languageName: node
   linkType: hard
 
@@ -549,7 +550,7 @@ __metadata:
   dependencies:
     "@commitlint/cli": 17.3.0
     "@commitlint/config-conventional": 17.3.0
-    "@memori.ai/memori-react": ^7.4.6
+    "@memori.ai/memori-react": ^7.5.0
     "@parcel/packager-ts": 2.8.0
     "@parcel/transformer-typescript-types": 2.8.0
     "@release-it/conventional-changelog": 5.1.1
@@ -6417,6 +6418,13 @@ __metadata:
     lightningcss-win32-x64-msvc:
       optional: true
   checksum: 0bf9d5c9321db457dd25c47281b7a8af36377ede05a45daa894f1f9070fe70b9db1325646aa2a574f0212e5f961f0f57b0419847141a4f49321bca72169aef16
+  languageName: node
+  linkType: hard
+
+"lil-gui@npm:^0.19.2":
+  version: 0.19.2
+  resolution: "lil-gui@npm:0.19.2"
+  checksum: 39ed27435803fc4e2d43bc84ce4924b49410b5469e0678703d58f201d3a6155e3ecb7df02fb24e169302a8e2be5167d56e231fcc78dc5295b8791e45a588ad83
   languageName: node
   linkType: hard
 
