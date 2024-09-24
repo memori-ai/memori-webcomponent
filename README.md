@@ -42,7 +42,7 @@ npm i --save @memori.ai/memori-webcomponent
   uiLang="it"
   multilingual="true"
   showShare="true"
-/>
+></memori-client>
 ```
 
 For more details on attributes, see [memori-react](https://github.com/memori-ai/memori-react) component props.
@@ -56,7 +56,7 @@ As for [memori-react](https://github.com/memori-ai/memori-react) component, it i
 With this WebComponent that is slightly different, as the context is not passed as a JSON but as a string in the `context` attribute as comma-separated `KEY:VALUE` pairs:
 
 ```html
-<memori-client ... context="VAR1:VALUE1,VAR2:VALUE2" />
+<memori-client ... context="VAR1:VALUE1,VAR2:VALUE2"></memori-client>
 ```
 
 ## Styling
