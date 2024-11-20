@@ -497,23 +497,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@memori.ai/memori-api-client@npm:^5.2.0":
-  version: 5.2.0
-  resolution: "@memori.ai/memori-api-client@npm:5.2.0"
+"@memori.ai/memori-api-client@npm:^5.2.1":
+  version: 5.2.1
+  resolution: "@memori.ai/memori-api-client@npm:5.2.1"
   dependencies:
     cross-fetch: ^3.1.5
   peerDependencies:
     typescript: ">=4.8"
-  checksum: d2cf30bde0887238743465040e0c06261eac80a771d22f1ce1a4763c6c326d7420a9e125d587b5b61042036287731b42f86b531dba4bfadd1a6f2a1aac56f6e1
+  checksum: 3a282a8d8dbf0d39a0a0399c6f0532f1c6a411189eafd3fa6b725840ac7611e3509458478feb87cb6388f20fe0f18658f69257506eb3e83dca2d1092a2993766
   languageName: node
   linkType: hard
 
-"@memori.ai/memori-react@npm:^7.8.8":
-  version: 7.8.8
-  resolution: "@memori.ai/memori-react@npm:7.8.8"
+"@memori.ai/memori-react@npm:^7.9.0":
+  version: 7.9.0
+  resolution: "@memori.ai/memori-react@npm:7.9.0"
   dependencies:
     "@headlessui/react": 1.7.4
-    "@memori.ai/memori-api-client": ^5.2.0
+    "@memori.ai/memori-api-client": ^5.2.1
     "@react-three/drei": 8.20.2
     "@react-three/fiber": 7.0.25
     classnames: 2.3.2
@@ -539,7 +539,7 @@ __metadata:
   peerDependencies:
     react: ">=16"
     typescript: ">=4.8"
-  checksum: 79c33e59a7ff06a397b99764d942f1f59f064427a2e2e72d99981d4a419c55d5bbd9123f678937cad5c8ace2d052bb3eb9f6ef85d1dab9bbc27d09beb3fdf748
+  checksum: e56d461dece9c1b0f75582f73e4f7f7729d466465844496ed84f3c5b3e18859c7198fafed3508d85fe226440c2eeaaccbac7b28a1ea3cb95749e2ed62cecf4eb
   languageName: node
   linkType: hard
 
@@ -549,7 +549,7 @@ __metadata:
   dependencies:
     "@commitlint/cli": 17.3.0
     "@commitlint/config-conventional": 17.3.0
-    "@memori.ai/memori-react": ^7.8.8
+    "@memori.ai/memori-react": ^7.9.0
     "@parcel/packager-ts": 2.8.0
     "@parcel/transformer-typescript-types": 2.8.0
     "@release-it/conventional-changelog": 5.1.1
