@@ -508,25 +508,25 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@memori.ai/memori-react@npm:^7.9.1":
-  version: 7.9.1
-  resolution: "@memori.ai/memori-react@npm:7.9.1"
+"@memori.ai/memori-react@npm:^7.10.0":
+  version: 7.10.0
+  resolution: "@memori.ai/memori-react@npm:7.10.0"
   dependencies:
     "@headlessui/react": 1.7.4
     "@memori.ai/memori-api-client": ^5.2.1
     "@react-three/drei": 8.20.2
     "@react-three/fiber": 7.0.25
-    classnames: 2.3.2
-    dompurify: ^3.0.6
+    classnames: 2.5.1
+    dompurify: ^3.2.1
     ellipsed: 1.6.0
     i18next: 22.0.6
-    katex: ^0.16.10
+    katex: ^0.16.11
     leaflet: ^1.9.4
     lil-gui: ^0.19.2
-    luxon: ^3.4.4
-    marked: ^11.1.0
-    marked-katex-extension: ^5.0.1
-    marked-linkify-it: ^3.1.9
+    luxon: ^3.5.0
+    marked: ^15.0.2
+    marked-katex-extension: ^5.1.3
+    marked-linkify-it: ^3.1.12
     microsoft-cognitiveservices-speech-sdk: 1.34.0
     qrcode.react: 3.1.0
     react-hook-form: 7.39.5
@@ -535,11 +535,11 @@ __metadata:
     react-leaflet: ^4.2.1
     standardized-audio-context: 25.3.34
     three: 0.144.0
-    tiny-invariant: ^1.3.1
+    tiny-invariant: ^1.3.3
   peerDependencies:
     react: ">=16"
     typescript: ">=4.8"
-  checksum: 685aad02470468d924be1360bf519c70d6e12e8c19c7ca4e1648299bc30eedb5c883ffbd0826276e864c9a84a9ff018220d190c5bedd3ed0e757c888c91c4a3d
+  checksum: 25c4f6bbb27ee966e946abdc7a862a444b09a729a5f73a4987fc81512ffc97fa529476b87ef41adc3e31bc30558891740beac9ef0c34afe5eccdb5d92fa6ad2d
   languageName: node
   linkType: hard
 
@@ -549,7 +549,7 @@ __metadata:
   dependencies:
     "@commitlint/cli": 17.3.0
     "@commitlint/config-conventional": 17.3.0
-    "@memori.ai/memori-react": ^7.9.1
+    "@memori.ai/memori-react": ^7.10.0
     "@parcel/packager-ts": 2.8.0
     "@parcel/transformer-typescript-types": 2.8.0
     "@release-it/conventional-changelog": 5.1.1
@@ -1824,10 +1824,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/linkify-it@npm:^3.0.5":
-  version: 3.0.5
-  resolution: "@types/linkify-it@npm:3.0.5"
-  checksum: fac28f41a6e576282300a459d70ea0d33aab70dbb77c3d09582bb0335bb00d862b6de69585792a4d590aae4173fbab0bf28861e2d90ca7b2b1439b52688e9ff6
+"@types/linkify-it@npm:^5.0.0":
+  version: 5.0.0
+  resolution: "@types/linkify-it@npm:5.0.0"
+  checksum: ec98e03aa883f70153a17a1e6ed9e28b39a604049b485daeddae3a1482ec65cac0817520be6e301d99fd1a934b3950cf0f855655aae6ec27da2bb676ba4a148e
   languageName: node
   linkType: hard
 
@@ -1915,6 +1915,13 @@ __metadata:
   version: 7.3.13
   resolution: "@types/semver@npm:7.3.13"
   checksum: 00c0724d54757c2f4bc60b5032fe91cda6410e48689633d5f35ece8a0a66445e3e57fa1d6e07eb780f792e82ac542948ec4d0b76eb3484297b79bd18b8cf1cb0
+  languageName: node
+  linkType: hard
+
+"@types/trusted-types@npm:^2.0.7":
+  version: 2.0.7
+  resolution: "@types/trusted-types@npm:2.0.7"
+  checksum: 8e4202766a65877efcf5d5a41b7dd458480b36195e580a3b1085ad21e948bc417d55d6f8af1fd2a7ad008015d4117d5fdfe432731157da3c68678487174e4ba3
   languageName: node
   linkType: hard
 
@@ -2917,10 +2924,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"classnames@npm:2.3.2":
-  version: 2.3.2
-  resolution: "classnames@npm:2.3.2"
-  checksum: 2c62199789618d95545c872787137262e741f9db13328e216b093eea91c85ef2bfb152c1f9e63027204e2559a006a92eb74147d46c800a9f96297ae1d9f96f4e
+"classnames@npm:2.5.1":
+  version: 2.5.1
+  resolution: "classnames@npm:2.5.1"
+  checksum: da424a8a6f3a96a2e87d01a432ba19315503294ac7e025f9fece656db6b6a0f7b5003bb1fbb51cbb0d9624d964f1b9bb35a51c73af9b2434c7b292c42231c1e5
   languageName: node
   linkType: hard
 
@@ -3839,10 +3846,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dompurify@npm:^3.0.6":
-  version: 3.0.6
-  resolution: "dompurify@npm:3.0.6"
-  checksum: e5c6cdc5fe972a9d0859d939f1d86320de275be00bbef7bd5591c80b1e538935f6ce236624459a1b0c84ecd7c6a1e248684aa4637512659fccc0ce7c353828a6
+"dompurify@npm:^3.2.1":
+  version: 3.2.1
+  resolution: "dompurify@npm:3.2.1"
+  dependencies:
+    "@types/trusted-types": ^2.0.7
+  dependenciesMeta:
+    "@types/trusted-types":
+      optional: true
+  checksum: 63becfa6c58a1d64755c2deb45db878ea51cf2935d77dd18ea266ef5b942dcf172b5c698265ec45bfb3e326ecf4ef1cf8e669939fed2c124b428298d31800949
   languageName: node
   linkType: hard
 
@@ -6119,14 +6131,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"katex@npm:^0.16.10":
-  version: 0.16.10
-  resolution: "katex@npm:0.16.10"
+"katex@npm:^0.16.11":
+  version: 0.16.11
+  resolution: "katex@npm:0.16.11"
   dependencies:
     commander: ^8.3.0
   bin:
     katex: cli.js
-  checksum: 108e9d810e17840c43eef8d46171096f4cc97852bfd1e2dd1890d9b3435846816e3e98678a31d38bd064eb97eea83b18ff224cb65d5f9511b54ce7ff4359b591
+  checksum: 49d9340705f4922ee22aacedad45664971449e5ca65e42a70228961336c8d4746c37c3c719bcc2114b6ad21182800c7d3d8bea28fe6f951fc45fe7e8322ea3bd
   languageName: node
   linkType: hard
 
@@ -6556,10 +6568,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"luxon@npm:^3.4.4":
-  version: 3.4.4
-  resolution: "luxon@npm:3.4.4"
-  checksum: 36c1f99c4796ee4bfddf7dc94fa87815add43ebc44c8934c924946260a58512f0fd2743a629302885df7f35ccbd2d13f178c15df046d0e3b6eb71db178f1c60c
+"luxon@npm:^3.5.0":
+  version: 3.5.0
+  resolution: "luxon@npm:3.5.0"
+  checksum: f290fe5788c8e51e748744f05092160d4be12150dca70f9fadc0d233e53d60ce86acd82e7d909a114730a136a77e56f0d3ebac6141bbb82fd310969a4704825b
   languageName: node
   linkType: hard
 
@@ -6615,36 +6627,36 @@ __metadata:
   languageName: node
   linkType: hard
 
-"marked-katex-extension@npm:^5.0.1":
-  version: 5.0.1
-  resolution: "marked-katex-extension@npm:5.0.1"
+"marked-katex-extension@npm:^5.1.3":
+  version: 5.1.3
+  resolution: "marked-katex-extension@npm:5.1.3"
   dependencies:
     "@types/katex": ^0.16.7
   peerDependencies:
     katex: ">=0.16 <0.17"
-    marked: ">=4 <13"
-  checksum: 9e0db75762d7ea6ac1ad974621957822e5b186354b8c3229a217c4ef2ef56c7c945563e4259062075d01d2c259dbb456193496ba6cc9f3832cbba9d28dba34cb
+    marked: ">=4 <16"
+  checksum: 85b868bd0d28bef40b91c93d316962e5c1ee274ee1eb9ae558953a4246d8a0e3bccafe0cfbbd0201d9b98b6e47468cf5375e2a4aaf463fd4e00cd3115ce5b678
   languageName: node
   linkType: hard
 
-"marked-linkify-it@npm:^3.1.9":
-  version: 3.1.9
-  resolution: "marked-linkify-it@npm:3.1.9"
+"marked-linkify-it@npm:^3.1.12":
+  version: 3.1.12
+  resolution: "marked-linkify-it@npm:3.1.12"
   dependencies:
-    "@types/linkify-it": ^3.0.5
+    "@types/linkify-it": ^5.0.0
     linkify-it: ^5.0.0
   peerDependencies:
-    marked: ">=4 <13"
-  checksum: df6c635c0af255783079dfff674454d8242f2ac42a9d8f5fe21670a9371d9f6408a9596831d442fae023de683dae4323fab7f527cdb2404350f8c4f1f2e1db1b
+    marked: ">=4 <16"
+  checksum: 86f1cbbfc4d1c91769577d9a060365006dcaab1bc62468ab9037f856ad66f3ec0f33413d952b82ec12b6edf175ba9274c93cb1d3d7d1b041d73d1d49714e720a
   languageName: node
   linkType: hard
 
-"marked@npm:^11.1.0":
-  version: 11.1.0
-  resolution: "marked@npm:11.1.0"
+"marked@npm:^15.0.2":
+  version: 15.0.2
+  resolution: "marked@npm:15.0.2"
   bin:
     marked: bin/marked.js
-  checksum: fdc553ebfdc5fc5fe5c5d0d1831f4f8c3ed5fd89af7a428df5e0abce8fceac23da826b762c53027b7a900579b73e6d33908a0cf0c7618d03e0f378e710439d18
+  checksum: 2315c8cbe1127d9598da5a978d7776aef6bc4dd65ea79a6632cd45e3cf4c8505700f1c8375104243677cc7d6b0f1275679cdfdf02f202cc805ed33cbf6b79c23
   languageName: node
   linkType: hard
 
@@ -9504,10 +9516,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tiny-invariant@npm:^1.3.1":
-  version: 1.3.1
-  resolution: "tiny-invariant@npm:1.3.1"
-  checksum: 872dbd1ff20a21303a2fd20ce3a15602cfa7fcf9b228bd694a52e2938224313b5385a1078cb667ed7375d1612194feaca81c4ecbe93121ca1baebe344de4f84c
+"tiny-invariant@npm:^1.3.3":
+  version: 1.3.3
+  resolution: "tiny-invariant@npm:1.3.3"
+  checksum: 5e185c8cc2266967984ce3b352a4e57cb89dad5a8abb0dea21468a6ecaa67cd5bb47a3b7a85d08041008644af4f667fb8b6575ba38ba5fb00b3b5068306e59fe
   languageName: node
   linkType: hard
 
