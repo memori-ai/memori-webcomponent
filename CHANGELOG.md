@@ -1,5 +1,12 @@
 
 
+## [7.11.2](https://github.com/memori-ai/memori-webcomponent/compare/v7.11.1...v7.11.2) (2024-12-06)
+
+
+### Maintenance
+
+* update memori-react ([b6c20c5](https://github.com/memori-ai/memori-webcomponent/commit/b6c20c5360c50013a383448a6d74ed0f122f6c66))
+
 ## [7.11.1](https://github.com/memori-ai/memori-webcomponent/compare/v7.11.0...v7.11.1) (2024-12-06)
 
 
