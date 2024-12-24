@@ -1,11 +1,8 @@
 # Memori WebComponent
 
-WebComponent to integrate a [Memori](https://memori.ai) in a web page or web app.
+WebComponent to integrate an agent from [Memori](https://memori.ai) in a web page or web app.
 
-Platforms:
-
-- [MemoryTwin](https://app.memorytwin.com/en): consumer / creator platform
-- [TwinCreator](https://app.twincreator.com/en): developer-oriented platform
+Web Platform: [AIsuru](https://aisuru.com)
 
 Uses [memori-react](https://github.com/memori-ai/memori-react) under the hood.
 See [demo](https://memori-ai.github.io/memori-webcomponent/example/).
@@ -61,7 +58,7 @@ With this WebComponent that is slightly different, as the context is not passed 
 
 ## Styling
 
-You can override the default styles of the Memori by customizing the following CSS custom properties:
+You can override the default styles of the Agent by customizing the following CSS custom properties:
 
 ```css
 memori-client,
