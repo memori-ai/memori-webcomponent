@@ -1,9 +1,10 @@
 import ReactDOM from 'react-dom';
+import type { Integration } from '@memori.ai/memori-api-client/dist/types';
 import Memori from '@memori.ai/memori-react';
 
-const parseJSONsafe = (json: string): { [key: string]: any } | null => {
+const parseJSONsafe = <T = { [key: string]: any },>(json: string): T | null => {
   try {
-    return JSON.parse(json);
+    return JSON.parse(json) as T;
   } catch (e) {
     return null;
   }
@@ -40,6 +41,10 @@ class MemoriWebComponent extends HTMLElement {
     }, {});
     const additionalInfo =
       parseJSONsafe(this.getAttribute('additionalInfo') || '{}') || {};
+    const integration = this.getAttribute('integration');
+    const parsedIntegration = integration
+      ? parseJSONsafe<Integration>(integration) || undefined
+      : undefined;
 
     if (tenantID) {
       ReactDOM.render(
@@ -48,6 +53,7 @@ class MemoriWebComponent extends HTMLElement {
           context={parsedContext}
           tenantID={tenantID}
           additionalInfo={additionalInfo}
+          integration={parsedIntegration}
         />,
         mountPoint
       );
