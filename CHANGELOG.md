@@ -1,5 +1,17 @@
 
 
+## [7.13.0](https://github.com/memori-ai/memori-webcomponent/compare/v7.12.2...v7.13.0) (2025-01-03)
+
+
+### Features
+
+* parse integration object from json ([5f9c50d](https://github.com/memori-ai/memori-webcomponent/commit/5f9c50d83e287499dcf05302618c873a02edfde2))
+
+
+### Maintenance
+
+* update memori-react ([2003758](https://github.com/memori-ai/memori-webcomponent/commit/20037584ab100ebf3dcd226fbd27e66d85577719))
+
 ## [7.12.2](https://github.com/memori-ai/memori-webcomponent/compare/v7.12.1...v7.12.2) (2024-12-24)
 
 
