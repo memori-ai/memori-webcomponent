@@ -1,5 +1,12 @@
 
 
+## [7.16.1](https://github.com/memori-ai/memori-webcomponent/compare/v7.16.0...v7.16.1) (2025-01-31)
+
+
+### Maintenance
+
+* updated components ([9365ff0](https://github.com/memori-ai/memori-webcomponent/commit/9365ff0eaf281390ff05fd4bcbf4f67be551046a))
+
 ## [7.16.0](https://github.com/memori-ai/memori-webcomponent/compare/v7.15.1...v7.16.0) (2025-01-29)
 
 
