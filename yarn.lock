@@ -508,16 +508,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@memori.ai/memori-react@npm:^7.16.2":
-  version: 7.16.2
-  resolution: "@memori.ai/memori-react@npm:7.16.2"
+"@memori.ai/memori-react@npm:^7.17.0":
+  version: 7.17.0
+  resolution: "@memori.ai/memori-react@npm:7.17.0"
   dependencies:
     "@headlessui/react": 1.7.4
     "@memori.ai/memori-api-client": ^5.5.0
     "@react-three/drei": 8.20.2
     "@react-three/fiber": 7.0.25
     classnames: 2.5.1
-    convertapi-js: ^1.0.8
     dompurify: ^3.2.1
     ellipsed: 1.6.0
     i18next: 22.0.6
@@ -540,7 +539,7 @@ __metadata:
   peerDependencies:
     react: ">=16"
     typescript: ">=4.8"
-  checksum: c21136a650a1e988ce6df5806ea4588424b2f3cb2b1eed50e1f1575e3f6397e4e64d66d18c1bbf95a915402e53d88ec5c68e0d2d19e2f9f497e875158b5fff25
+  checksum: 9c2ee9c5d70553839c7ae8e02e42d251140413cda9301d69fe9b273616a270e5a5258c5f320a5cf25a81afcba631a92e8c4c20a505cc90abf86ff8e7732f7860
   languageName: node
   linkType: hard
 
@@ -550,7 +549,7 @@ __metadata:
   dependencies:
     "@commitlint/cli": 17.3.0
     "@commitlint/config-conventional": 17.3.0
-    "@memori.ai/memori-react": ^7.16.2
+    "@memori.ai/memori-react": ^7.17.0
     "@parcel/packager-ts": 2.8.0
     "@parcel/transformer-typescript-types": 2.8.0
     "@release-it/conventional-changelog": 5.1.1
@@ -3353,13 +3352,6 @@ __metadata:
   bin:
     conventional-recommended-bump: cli.js
   checksum: da1d7a5f3b9f7706bede685cdcb3db67997fdaa43c310fd5bf340955c84a4b85dbb9427031522ee06dad290b730a54be987b08629d79c73720dbad3a2531146b
-  languageName: node
-  linkType: hard
-
-"convertapi-js@npm:^1.0.8":
-  version: 1.1.9
-  resolution: "convertapi-js@npm:1.1.9"
-  checksum: f69ce291f1147eef285a34246604e845cbb62971c223cd17896dcc201fb1c6458d452aaf46ab82b6b764f52cc41f2f044b9427fda25f2347ceb6411a975677cb
   languageName: node
   linkType: hard
 
