@@ -508,7 +508,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@memori.ai/memori-react@npm:^7.29.1":
+"@memori.ai/memori-react@npm:^7.30.0":
   version: 7.30.0
   resolution: "@memori.ai/memori-react@npm:7.30.0"
   dependencies:
@@ -549,7 +549,7 @@ __metadata:
   dependencies:
     "@commitlint/cli": 17.3.0
     "@commitlint/config-conventional": 17.3.0
-    "@memori.ai/memori-react": ^7.29.1
+    "@memori.ai/memori-react": ^7.30.0
     "@parcel/packager-ts": 2.8.0
     "@parcel/transformer-typescript-types": 2.8.0
     "@release-it/conventional-changelog": 5.1.1
