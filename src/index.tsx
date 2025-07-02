@@ -46,10 +46,16 @@ class MemoriWebComponent extends HTMLElement {
       ? parseJSONsafe<Integration>(integration) || undefined
       : undefined;
 
+    let apiURL = this.getAttribute('apiURL') || undefined;
+    if (apiURL && new URL(apiURL).hostname === 'backend.memori.ai') {
+      apiURL = 'https://backend-proxy.aisuru.com';
+    }
+
     if (tenantID) {
       ReactDOM.render(
         <Memori
           {...props}
+          apiURL={apiURL}
           context={parsedContext}
           tenantID={tenantID}
           additionalInfo={additionalInfo}
