@@ -1,5 +1,17 @@
 
 
+## [7.32.0](https://github.com/memori-ai/memori-webcomponent/compare/v7.31.1...v7.32.0) (2025-07-02)
+
+
+### Features
+
+* update memori-react ([6893b6d](https://github.com/memori-ai/memori-webcomponent/commit/6893b6d26a24bfabc7c3705f12f2fa463379f527))
+
+
+### Maintenance
+
+* replace backend url with proxy ([7d4b87a](https://github.com/memori-ai/memori-webcomponent/commit/7d4b87a4f7fa22fdf233245d93e568fda3a5eb13))
+
 ## [7.31.1](https://github.com/memori-ai/memori-webcomponent/compare/v7.31.0...v7.31.1) (2025-06-30)
 
 
