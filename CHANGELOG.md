@@ -1,5 +1,17 @@
 
 
+## [8.1.0](https://github.com/memori-ai/memori-webcomponent/compare/v8.0.1...v8.1.0) (2025-09-25)
+
+
+### Features
+
+* add __WEBCOMPONENT__ prop to MemoriWebComponent ([5d7ae9c](https://github.com/memori-ai/memori-webcomponent/commit/5d7ae9c4f5a7cfc5df1a3718b6bd9a47e55cb6df))
+
+
+### Maintenance
+
+* update memori-react ([cc4eebf](https://github.com/memori-ai/memori-webcomponent/commit/cc4eebfd325739476b81c01851b40dd5b5e486f6))
+
 ## [8.0.1](https://github.com/memori-ai/memori-webcomponent/compare/v8.0.0...v8.0.1) (2025-09-17)
 
 
