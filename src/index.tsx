@@ -60,6 +60,7 @@ class MemoriWebComponent extends HTMLElement {
           tenantID={tenantID}
           additionalInfo={additionalInfo}
           integration={parsedIntegration}
+          __WEBCOMPONENT__={true}
         />,
         mountPoint
       );
