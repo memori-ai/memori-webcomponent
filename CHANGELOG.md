@@ -1,5 +1,12 @@
 
 
+## [8.1.3](https://github.com/memori-ai/memori-webcomponent/compare/v8.1.2...v8.1.3) (2025-10-03)
+
+
+### Maintenance
+
+* update memori-react ([ae6bc33](https://github.com/memori-ai/memori-webcomponent/commit/ae6bc33cffc24fa44e97eb13b13b9a4a780b8032))
+
 ## [8.1.2](https://github.com/memori-ai/memori-webcomponent/compare/v8.1.1...v8.1.2) (2025-09-30)
 
 
