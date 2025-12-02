@@ -1,5 +1,12 @@
 
 
+## [8.1.17](https://github.com/memori-ai/memori-webcomponent/compare/v8.1.16...v8.1.17) (2025-12-02)
+
+
+### Maintenance
+
+* pin memori-react dependency ([be64dcc](https://github.com/memori-ai/memori-webcomponent/commit/be64dcc9d36584bef14d7a529e06b1a04ac786b8))
+
 ## [8.1.16](https://github.com/memori-ai/memori-webcomponent/compare/v8.1.15...v8.1.16) (2025-12-02)
 
 
