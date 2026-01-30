@@ -508,9 +508,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@memori.ai/memori-react@npm:8.15.1":
-  version: 8.15.1
-  resolution: "@memori.ai/memori-react@npm:8.15.1"
+"@memori.ai/memori-react@npm:8.16.0":
+  version: 8.16.0
+  resolution: "@memori.ai/memori-react@npm:8.16.0"
   dependencies:
     "@headlessui/react": 1.7.4
     "@memori.ai/memori-api-client": 6.17.0
@@ -538,7 +538,7 @@ __metadata:
   peerDependencies:
     react: ">=16"
     typescript: ">=4.8"
-  checksum: f8dbf0c7b212cbaa87dfbe41e9ac7ffc3447a7e3b0a3bc3b0b14a7e595843b6ccb1b17761f8a10016b5c9e1a52780f404462f71e57084a08e64338a4f28395d6
+  checksum: 41a29e8ef1bb1015ca33d35eb9116a0e8a45c741707b5d081dca1de9fa92524b318db112eda5ef0888d74677a55079d8fcc727f7d2e865f3aacc3182e54ee772
   languageName: node
   linkType: hard
 
@@ -548,7 +548,7 @@ __metadata:
   dependencies:
     "@commitlint/cli": 17.3.0
     "@commitlint/config-conventional": 17.3.0
-    "@memori.ai/memori-react": 8.15.1
+    "@memori.ai/memori-react": 8.16.0
     "@parcel/packager-ts": 2.8.0
     "@parcel/transformer-typescript-types": 2.8.0
     "@release-it/conventional-changelog": 5.1.1
