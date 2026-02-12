@@ -1,6 +1,6 @@
 {
   "name": "@memori.ai/memori-webcomponent",
-  "version": "8.1.29",
+  "version": "8.1.30",
   "description": "WebComponent to integrate a Memori in your app or website",
   "author": "Memori Srl",
   "source": "src/index.tsx",
