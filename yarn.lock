@@ -508,16 +508,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@memori.ai/memori-react@npm:8.32.0":
-  version: 8.32.0
-  resolution: "@memori.ai/memori-react@npm:8.32.0"
+"@memori.ai/memori-react@npm:8.33.0":
+  version: 8.33.0
+  resolution: "@memori.ai/memori-react@npm:8.33.0"
   dependencies:
     "@headlessui/react": 1.7.4
     "@memori.ai/memori-api-client": 6.20.0
     "@react-three/drei": 8.20.2
     "@react-three/fiber": 7.0.25
     classnames: 2.5.1
-    dompurify: ^3.3.3
+    dompurify: ^3.4.0
     ellipsed: 1.6.0
     i18next: 22.0.6
     katex: ^0.16.11
@@ -538,7 +538,7 @@ __metadata:
   peerDependencies:
     react: ">=16"
     typescript: ">=4.8"
-  checksum: 2e8c68c95808bc57076973e9ab7d92d7db7f69b372a6acd6c099afcd2f8e731e3dec6ac93368e23734e695a7eeb1eed1eba25994f8115689b77f6cd72728fe14
+  checksum: 0deeefb72216213ad60a092b80e3166ef33a2b1212cad64d188adae89970b4e88d2d6764345d93965e396adf6f55f1a94ea4119d4a257419c19338cc1c869c53
   languageName: node
   linkType: hard
 
@@ -548,7 +548,7 @@ __metadata:
   dependencies:
     "@commitlint/cli": 17.3.0
     "@commitlint/config-conventional": 17.3.0
-    "@memori.ai/memori-react": 8.32.0
+    "@memori.ai/memori-react": 8.33.0
     "@parcel/packager-ts": 2.8.0
     "@parcel/transformer-typescript-types": 2.8.0
     "@release-it/conventional-changelog": 5.1.1
@@ -3806,15 +3806,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dompurify@npm:^3.3.3":
-  version: 3.3.3
-  resolution: "dompurify@npm:3.3.3"
+"dompurify@npm:^3.4.0":
+  version: 3.4.0
+  resolution: "dompurify@npm:3.4.0"
   dependencies:
     "@types/trusted-types": ^2.0.7
   dependenciesMeta:
     "@types/trusted-types":
       optional: true
-  checksum: 2ba5b40129259836f1e6c98e99d16608d34c7f4ad6ba457ac8c932f0e2c8e0e7c27561d25fcabf97e695eec57fd5eef1c065b324a542e5125631d4f768af2736
+  checksum: 8c4286d3d379c6133ff2951d73d946974ef079f5d651d66cf90c1a6e57d8d2d304e7bc18280d27c38835200bbe03877fd93fb22f9f1fb9e086d68ffcd2d5dd16
   languageName: node
   linkType: hard
 
