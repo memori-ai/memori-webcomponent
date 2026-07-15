@@ -497,27 +497,29 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@memori.ai/memori-api-client@npm:6.22.0":
-  version: 6.22.0
-  resolution: "@memori.ai/memori-api-client@npm:6.22.0"
+"@memori.ai/memori-api-client@npm:6.24.1":
+  version: 6.24.1
+  resolution: "@memori.ai/memori-api-client@npm:6.24.1"
   dependencies:
     cross-fetch: ^3.1.5
   peerDependencies:
     typescript: ">=4.8"
-  checksum: b6e4f5412bfcb1d0c6da64608f8cdcf7fa09d2e4b86f1d73ec170602324f43501c050ed958458caafbeea28345a9d604d4bcbb4e4c00bfd936cfc3857129d3cf
+  checksum: 779d5c23fc746fdef21e903ac43755b941733304d83c0388bfdacdf042228856620c140a3c8d2df410ca1c44efa41b99bca6830c22095aed5c93b0e922a29336
   languageName: node
   linkType: hard
 
-"@memori.ai/memori-react@npm:8.38.5":
-  version: 8.38.5
-  resolution: "@memori.ai/memori-react@npm:8.38.5"
+"@memori.ai/memori-react@npm:8.41.4":
+  version: 8.41.4
+  resolution: "@memori.ai/memori-react@npm:8.41.4"
   dependencies:
     "@headlessui/react": 1.7.4
-    "@memori.ai/memori-api-client": 6.22.0
+    "@memori.ai/memori-api-client": 6.24.1
+    "@nats-io/jetstream": ^3.4.0
+    "@nats-io/nats-core": ^3.4.0
     "@react-three/drei": 8.20.2
     "@react-three/fiber": 7.0.25
     classnames: 2.5.1
-    dompurify: ^3.4.0
+    dompurify: ^3.4.11
     ellipsed: 1.6.0
     i18next: 22.0.6
     katex: ^0.16.11
@@ -538,7 +540,7 @@ __metadata:
   peerDependencies:
     react: ">=16"
     typescript: ">=4.8"
-  checksum: e6b320b7dbdc5763418657349c5e7cbf393166eb6ba3064e05e1181c89625f9ef316675928d6da36bad118861be5ef1a2afc09831909a7f1500dfbc72fbc465c
+  checksum: 1e809b6fa2a9863febb41f45a7f2415a403a9ebcb736c818f344705282b267af51a324f2954fa419e2df082ba3b56a6575ee173491bdb2b5b2bf89d29f911c9b
   languageName: node
   linkType: hard
 
@@ -548,7 +550,9 @@ __metadata:
   dependencies:
     "@commitlint/cli": 17.3.0
     "@commitlint/config-conventional": 17.3.0
-    "@memori.ai/memori-react": 8.38.5
+    "@memori.ai/memori-react": 8.41.4
+    "@nats-io/jetstream": ^3.4.0
+    "@nats-io/nats-core": ^3.4.0
     "@parcel/packager-ts": 2.8.0
     "@parcel/transformer-typescript-types": 2.8.0
     "@release-it/conventional-changelog": 5.1.1
@@ -641,6 +645,41 @@ __metadata:
   version: 2.2.0
   resolution: "@msgpackr-extract/msgpackr-extract-win32-x64@npm:2.2.0"
   conditions: os=win32 & cpu=x64
+  languageName: node
+  linkType: hard
+
+"@nats-io/jetstream@npm:^3.4.0":
+  version: 3.4.0
+  resolution: "@nats-io/jetstream@npm:3.4.0"
+  dependencies:
+    "@nats-io/nats-core": 3.4.0
+  checksum: 35b74f7471d9b9e7458eaf1dd48df71866a6631d8a3f05443fb4108ea0018610cbdc493a109d0cc1840ebaf84dd2c1e9bf37f6e48c50d5dcd3147f25c45de969
+  languageName: node
+  linkType: hard
+
+"@nats-io/nats-core@npm:3.4.0, @nats-io/nats-core@npm:^3.4.0":
+  version: 3.4.0
+  resolution: "@nats-io/nats-core@npm:3.4.0"
+  dependencies:
+    "@nats-io/nkeys": 2.0.3
+    "@nats-io/nuid": 3.0.0
+  checksum: f53a42c0e728ac0fa39962ec61214ad1a586d5432f1857050fc25771800cfbca1d79bc5402bce2f0807ed433687e96d3f63486d0e12250650aeabddf6a20725a
+  languageName: node
+  linkType: hard
+
+"@nats-io/nkeys@npm:2.0.3":
+  version: 2.0.3
+  resolution: "@nats-io/nkeys@npm:2.0.3"
+  dependencies:
+    tweetnacl: ^1.0.3
+  checksum: bc00502688aad5c3f1c01b24e4828dda145a1b102f81287f9ad71745343ebce61324a555e7303d08929330a546167eb2902d1c38628189fda78373bf8c5db15a
+  languageName: node
+  linkType: hard
+
+"@nats-io/nuid@npm:3.0.0":
+  version: 3.0.0
+  resolution: "@nats-io/nuid@npm:3.0.0"
+  checksum: c61138c7e59a092e82098be03ed0da595c8ee6cefee890de41ce49afb4f303de857afe85480f7809acf76c4797ae8facb1beffa952cbc48d7d73c654f9f92062
   languageName: node
   linkType: hard
 
@@ -3806,15 +3845,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dompurify@npm:^3.4.0":
-  version: 3.4.0
-  resolution: "dompurify@npm:3.4.0"
+"dompurify@npm:^3.4.11":
+  version: 3.4.12
+  resolution: "dompurify@npm:3.4.12"
   dependencies:
     "@types/trusted-types": ^2.0.7
   dependenciesMeta:
     "@types/trusted-types":
       optional: true
-  checksum: 8c4286d3d379c6133ff2951d73d946974ef079f5d651d66cf90c1a6e57d8d2d304e7bc18280d27c38835200bbe03877fd93fb22f9f1fb9e086d68ffcd2d5dd16
+  checksum: 477e944e669bac9247c9ebfa55c7ea5c73f3cc6cd6b21ee72e306000e3e53d308e7bdaac89e655a0e2661de2ffbdd877e6a92537d07ba1d70c6c441fcef8c65c
   languageName: node
   linkType: hard
 
@@ -9600,6 +9639,13 @@ __metadata:
   peerDependencies:
     typescript: ">=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta"
   checksum: 1843f4c1b2e0f975e08c4c21caa4af4f7f65a12ac1b81b3b8489366826259323feb3fc7a243123453d2d1a02314205a7634e048d4a8009921da19f99755cdc48
+  languageName: node
+  linkType: hard
+
+"tweetnacl@npm:^1.0.3":
+  version: 1.0.3
+  resolution: "tweetnacl@npm:1.0.3"
+  checksum: e4a57cac188f0c53f24c7a33279e223618a2bfb5fea426231991652a13247bea06b081fd745d71291fcae0f4428d29beba1b984b1f1ce6f66b06a6d1ab90645c
   languageName: node
   linkType: hard
 

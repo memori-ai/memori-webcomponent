@@ -221,8 +221,16 @@
     "util": "^0.12.3"
   },
   "dependencies": {
-    "@memori.ai/memori-react": "8.38.5",
+    "@memori.ai/memori-react": "8.41.4",
+    "@nats-io/jetstream": "^3.4.0",
+    "@nats-io/nats-core": "^3.4.0",
     "react": "17.0.2",
     "react-dom": "17.0.2"
+  },
+  "alias": {
+    "@nats-io/jetstream": "@nats-io/jetstream/lib/mod.js",
+    "@nats-io/nats-core": "@nats-io/nats-core/lib/mod.js",
+    "@nats-io/nats-core/internal": "@nats-io/nats-core/lib/internal_mod.js",
+    "@nats-io/jetstream/internal": "@nats-io/jetstream/lib/internal_mod.js"
   }
 }
