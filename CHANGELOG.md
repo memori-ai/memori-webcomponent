@@ -1,5 +1,12 @@
 
 
+## [8.2.17](https://github.com/memori-ai/memori-webcomponent/compare/v8.2.16...v8.2.17) (2026-07-20)
+
+
+### Maintenance
+
+* update dependencies and change build directory for nats ([7c18408](https://github.com/memori-ai/memori-webcomponent/commit/7c184085cae58c666b743d887006af24a2e41922))
+
 ## [8.2.16](https://github.com/memori-ai/memori-webcomponent/compare/v8.2.15...v8.2.16) (2026-05-21)
 
 
