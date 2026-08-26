@@ -508,9 +508,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@memori.ai/memori-react@npm:8.41.4":
-  version: 8.41.4
-  resolution: "@memori.ai/memori-react@npm:8.41.4"
+"@memori.ai/memori-react@npm:8.42.0":
+  version: 8.42.0
+  resolution: "@memori.ai/memori-react@npm:8.42.0"
   dependencies:
     "@headlessui/react": 1.7.4
     "@memori.ai/memori-api-client": 6.24.1
@@ -519,7 +519,7 @@ __metadata:
     "@react-three/drei": 8.20.2
     "@react-three/fiber": 7.0.25
     classnames: 2.5.1
-    dompurify: ^3.4.11
+    dompurify: ^3.4.12
     ellipsed: 1.6.0
     i18next: 22.0.6
     katex: ^0.16.11
@@ -540,7 +540,7 @@ __metadata:
   peerDependencies:
     react: ">=16"
     typescript: ">=4.8"
-  checksum: 1e809b6fa2a9863febb41f45a7f2415a403a9ebcb736c818f344705282b267af51a324f2954fa419e2df082ba3b56a6575ee173491bdb2b5b2bf89d29f911c9b
+  checksum: a843c376ca7f19828ba245cc90fd531b4ccf8c801cd6f6791eb87ab728bd75cdb94af3fee9374163c6c53d6b879707fc322f1d799cad6003599b769548499939
   languageName: node
   linkType: hard
 
@@ -550,7 +550,7 @@ __metadata:
   dependencies:
     "@commitlint/cli": 17.3.0
     "@commitlint/config-conventional": 17.3.0
-    "@memori.ai/memori-react": 8.41.4
+    "@memori.ai/memori-react": 8.42.0
     "@nats-io/jetstream": ^3.4.0
     "@nats-io/nats-core": ^3.4.0
     "@parcel/packager-ts": 2.8.0
@@ -3845,15 +3845,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dompurify@npm:^3.4.11":
-  version: 3.4.12
-  resolution: "dompurify@npm:3.4.12"
+"dompurify@npm:^3.4.12":
+  version: 3.4.14
+  resolution: "dompurify@npm:3.4.14"
   dependencies:
     "@types/trusted-types": ^2.0.7
   dependenciesMeta:
     "@types/trusted-types":
       optional: true
-  checksum: 477e944e669bac9247c9ebfa55c7ea5c73f3cc6cd6b21ee72e306000e3e53d308e7bdaac89e655a0e2661de2ffbdd877e6a92537d07ba1d70c6c441fcef8c65c
+  checksum: b33560cfe33df810449ab31d216d37d5d33aaa21843650bc9fc8e0a52b2f9c3e92d3574b3272b6ed701ac7f74e19ee0983689469a36fab68472528f568decb1d
   languageName: node
   linkType: hard
 
