@@ -35,7 +35,7 @@
     "start": "parcel serve example/index.html --dist-dir dist",
     "dev": "parcel serve example/index.html --dist-dir dist",
     "prebuild": "yarn clean",
-    "build": "parcel build --no-content-hash --no-source-maps --dist-dir dist && mv dist/index.js dist/memori-webcomponent.js",
+    "build": "yarn clean && parcel build --no-content-hash --no-source-maps --dist-dir dist && mv dist/index.js dist/memori-webcomponent.js",
     "clean": "rimraf dist",
     "format": "prettier --write src",
     "lint": "eslint --ignore-path .gitignore \"src/**/*.+(ts|js|tsx)\"",
