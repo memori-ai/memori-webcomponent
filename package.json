@@ -223,7 +223,7 @@
     "util": "^0.12.3"
   },
   "dependencies": {
-    "@memori.ai/memori-react": "9.0.0-alpha.21",
+    "@memori.ai/memori-react": "9.0.0-alpha.22",
     "@nats-io/jetstream": "^3.4.0",
     "@nats-io/nats-core": "^3.4.0",
     "react": "17.0.2",

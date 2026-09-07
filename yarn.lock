@@ -562,16 +562,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@memori.ai/memori-react@npm:9.0.0-alpha.21":
-  version: 9.0.0-alpha.21
-  resolution: "@memori.ai/memori-react@npm:9.0.0-alpha.21"
+"@memori.ai/memori-react@npm:9.0.0-alpha.22":
+  version: 9.0.0-alpha.22
+  resolution: "@memori.ai/memori-react@npm:9.0.0-alpha.22"
   dependencies:
     "@memori.ai/memori-api-client": 6.24.1
-    "@memori.ai/ui": ^1.16.1
+    "@memori.ai/ui": ^1.17.0
     "@nats-io/jetstream": ^3.4.0
     "@nats-io/nats-core": ^3.4.0
     "@react-three/drei": 8.20.2
     "@react-three/fiber": 7.0.25
+    "@tanstack/react-table": ^8.21.0
     classnames: 2.5.1
     dompurify: ^3.4.13
     ellipsed: 1.6.0
@@ -594,7 +595,7 @@ __metadata:
   peerDependencies:
     react: ">=16"
     typescript: ">=4.8"
-  checksum: 836a8501da6e75668de0af75c0cc5228f7d73f0e40987dd1acf8df4009431b9a1b4ba8fa6b36eb07190a6fc4c1d0eaace2bf9890bd13dd96835ae36343db5350
+  checksum: 597678c3f181a5dea205a8e68458fd9b5a0e75a7fb886519a4645cb5c97701ef74d113d695f97064897f1c8205f7c4a9c34265d7708ade284ff6c6d3699a4dd8
   languageName: node
   linkType: hard
 
@@ -604,7 +605,7 @@ __metadata:
   dependencies:
     "@commitlint/cli": 17.3.0
     "@commitlint/config-conventional": 17.3.0
-    "@memori.ai/memori-react": 9.0.0-alpha.21
+    "@memori.ai/memori-react": 9.0.0-alpha.22
     "@nats-io/jetstream": ^3.4.0
     "@nats-io/nats-core": ^3.4.0
     "@parcel/packager-ts": 2.16.4
@@ -651,9 +652,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@memori.ai/ui@npm:^1.16.1":
-  version: 1.16.3
-  resolution: "@memori.ai/ui@npm:1.16.3"
+"@memori.ai/ui@npm:^1.17.0":
+  version: 1.17.0
+  resolution: "@memori.ai/ui@npm:1.17.0"
   dependencies:
     "@base-ui/react": ^1.0.0
     "@tanstack/react-table": ^8.21.0
@@ -673,9 +674,13 @@ __metadata:
       optional: true
     "@types/react-dom":
       optional: true
+    i18next:
+      optional: true
+    react-i18next:
+      optional: true
     typescript:
       optional: true
-  checksum: 3e879e84c65bf6bef59972f4a247328f1e8ba946a5b442c94479d1131fb5e232bdd447ee8fc5592b2495e8e52e5291b9b9d1e3d66a1b8a7aee81564f6ec4e031
+  checksum: e024a33cac465f915b3537449447f166a8f693a667b02c2af445b3a1f607a60ff86db0523213bb838a8734af4515c9a824b4af8fade5a31ad00dfb1864919192
   languageName: node
   linkType: hard
 
