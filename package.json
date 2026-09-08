@@ -221,7 +221,7 @@
     "util": "^0.12.3"
   },
   "dependencies": {
-    "@memori.ai/memori-react": "8.43.0",
+    "@memori.ai/memori-react": "memori-ai/memori-react#ghdist",
     "@nats-io/jetstream": "^3.4.0",
     "@nats-io/nats-core": "^3.4.0",
     "react": "17.0.2",
