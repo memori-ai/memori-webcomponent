@@ -562,12 +562,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@memori.ai/memori-react@npm:9.0.0-alpha.22":
-  version: 9.0.0-alpha.22
-  resolution: "@memori.ai/memori-react@npm:9.0.0-alpha.22"
+"@memori.ai/memori-react@npm:9.0.0-alpha.25":
+  version: 9.0.0-alpha.25
+  resolution: "@memori.ai/memori-react@npm:9.0.0-alpha.25"
   dependencies:
     "@memori.ai/memori-api-client": 6.24.1
-    "@memori.ai/ui": ^1.17.0
+    "@memori.ai/ui": ^1.18.0
     "@nats-io/jetstream": ^3.4.0
     "@nats-io/nats-core": ^3.4.0
     "@react-three/drei": 8.20.2
@@ -583,7 +583,7 @@ __metadata:
     lucide-react: ^0.460.0
     luxon: ^3.5.0
     marked: ^15.0.2
-    marked-katex-extension: ^5.1.3
+    marked-katex-extension: 5.1.10
     marked-linkify-it: ^3.1.12
     qrcode.react: 3.1.0
     react-hook-form: 7.39.5
@@ -595,7 +595,7 @@ __metadata:
   peerDependencies:
     react: ">=16"
     typescript: ">=4.8"
-  checksum: 597678c3f181a5dea205a8e68458fd9b5a0e75a7fb886519a4645cb5c97701ef74d113d695f97064897f1c8205f7c4a9c34265d7708ade284ff6c6d3699a4dd8
+  checksum: badcbdb2b82ba1e8c9011170b7cd6f9a6a06b5120ec2603a7b509caa852837f6c42fc07eac220306beae76fa7f4d28eb17d47371f657605d20aca22cfbcc6f67
   languageName: node
   linkType: hard
 
@@ -605,7 +605,7 @@ __metadata:
   dependencies:
     "@commitlint/cli": 17.3.0
     "@commitlint/config-conventional": 17.3.0
-    "@memori.ai/memori-react": 9.0.0-alpha.22
+    "@memori.ai/memori-react": 9.0.0-alpha.25
     "@nats-io/jetstream": ^3.4.0
     "@nats-io/nats-core": ^3.4.0
     "@parcel/packager-ts": 2.16.4
@@ -652,9 +652,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@memori.ai/ui@npm:^1.17.0":
-  version: 1.17.0
-  resolution: "@memori.ai/ui@npm:1.17.0"
+"@memori.ai/ui@npm:^1.18.0":
+  version: 1.18.0
+  resolution: "@memori.ai/ui@npm:1.18.0"
   dependencies:
     "@base-ui/react": ^1.0.0
     "@tanstack/react-table": ^8.21.0
@@ -664,23 +664,19 @@ __metadata:
   peerDependencies:
     "@types/react": ^17 || ^18
     "@types/react-dom": ^17 || ^18
-    i18next: ^25.5.0
+    i18next: ">=21"
     react: ^17 || ^18
     react-dom: ^17 || ^18
-    react-i18next: ^16.3.5
+    react-i18next: ">=11"
     typescript: ">=5.0"
   peerDependenciesMeta:
     "@types/react":
       optional: true
     "@types/react-dom":
       optional: true
-    i18next:
-      optional: true
-    react-i18next:
-      optional: true
     typescript:
       optional: true
-  checksum: e024a33cac465f915b3537449447f166a8f693a667b02c2af445b3a1f607a60ff86db0523213bb838a8734af4515c9a824b4af8fade5a31ad00dfb1864919192
+  checksum: 8e1a9b95228eeebe5ea2089a48ad87e23f2d2af81d10d8df5368847cc64ec73aed9819ae2d68d0fbc4ae399f5a05d07c65c761162f54125faaa0663050e8c3ba
   languageName: node
   linkType: hard
 
@@ -2243,13 +2239,6 @@ __metadata:
   version: 0.0.29
   resolution: "@types/json5@npm:0.0.29"
   checksum: e60b153664572116dfea673c5bda7778dbff150498f44f998e34b5886d8afc47f16799280e4b6e241c0472aef1bc36add771c569c68fc5125fc2ae519a3eb9ac
-  languageName: node
-  linkType: hard
-
-"@types/katex@npm:^0.16.7":
-  version: 0.16.7
-  resolution: "@types/katex@npm:0.16.7"
-  checksum: 4fd15d93553be97c02c064e16be18d7ccbabf66ec72a9dc7fd5bfa47f0c7581da2f942f693c7cb59499de4c843c2189796e49c9647d336cbd52b777b6722a95a
   languageName: node
   linkType: hard
 
@@ -7125,15 +7114,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"marked-katex-extension@npm:^5.1.3":
-  version: 5.1.3
-  resolution: "marked-katex-extension@npm:5.1.3"
-  dependencies:
-    "@types/katex": ^0.16.7
+"marked-katex-extension@npm:5.1.10":
+  version: 5.1.10
+  resolution: "marked-katex-extension@npm:5.1.10"
   peerDependencies:
-    katex: ">=0.16 <0.17"
-    marked: ">=4 <16"
-  checksum: 85b868bd0d28bef40b91c93d316962e5c1ee274ee1eb9ae558953a4246d8a0e3bccafe0cfbbd0201d9b98b6e47468cf5375e2a4aaf463fd4e00cd3115ce5b678
+    katex: ">=0.16 <0.18"
+    marked: ">=4 <19"
+  checksum: f8d92061c149d73d574515b771017bb1407898ba988be5a6faf0795505140a7c8e05642be112afc8cf9d3fa5f7cc11939439089bed6b921876e91919849d169e
   languageName: node
   linkType: hard
 
