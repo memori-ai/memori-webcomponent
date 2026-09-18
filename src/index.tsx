@@ -10,15 +10,34 @@ const parseJSONsafe = <T = { [key: string]: any },>(json: string): T | null => {
   }
 };
 
+const fillParent = (el: HTMLElement, height = '100%') => {
+  el.style.display = 'block';
+  el.style.width = '100%';
+  el.style.height = height;
+  el.style.minHeight = '0';
+};
+
+const shouldSizeHost = (host: HTMLElement) =>
+  host.hasAttribute('height') || host.getAttribute('layout') === 'CHAT';
+
 class MemoriWebComponent extends HTMLElement {
   connectedCallback() {
     const wrapper = document.createElement('div');
-
     const mountPoint = document.createElement('div');
     mountPoint.setAttribute('id', 'memori-root');
 
-    wrapper.appendChild(mountPoint);
+    // Custom elements default to display:inline. A block child with height:100%
+    // then percentages against the slot, not the host — which turns FAB/sidebar
+    // into a spacer. Make this a block container first; only assign height for
+    // CHAT (slot-fill) or an explicit `height` attribute. Never default to 100vh.
+    this.style.display = 'block';
+    fillParent(wrapper);
+    fillParent(mountPoint);
+    if (shouldSizeHost(this)) {
+      fillParent(this, this.getAttribute('height') || '100%');
+    }
 
+    wrapper.appendChild(mountPoint);
     this.appendChild(wrapper);
 
     const props = Object.keys(
