@@ -562,9 +562,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@memori.ai/memori-react@npm:9.0.0-rc.4":
-  version: 9.0.0-rc.4
-  resolution: "@memori.ai/memori-react@npm:9.0.0-rc.4"
+"@memori.ai/memori-react@npm:9.0.0-rc.5":
+  version: 9.0.0-rc.5
+  resolution: "@memori.ai/memori-react@npm:9.0.0-rc.5"
   dependencies:
     "@memori.ai/memori-api-client": 6.24.1
     "@memori.ai/ui": 2.0.2
@@ -574,7 +574,7 @@ __metadata:
     "@react-three/fiber": 7.0.25
     "@tanstack/react-table": ^8.21.0
     classnames: 2.5.1
-    dompurify: ^3.4.13
+    dompurify: ^3.4.16
     ellipsed: 1.6.0
     i18next: 22.0.6
     katex: ^0.16.11
@@ -595,7 +595,7 @@ __metadata:
   peerDependencies:
     react: ">=17"
     typescript: ">=4.8"
-  checksum: ae90b16b7dbc22414752d05263ecacedc703f22a63307d1d1fbdf07dcfb0bb6d213ab4260f0fe0af9ee1d5494f6749fe9a6a7f11515c9507b316886b103f18b9
+  checksum: f198f2da6bf449b5a728720d5e200874a42d8da69be7e7aef6df1239d4b582950dd3ad5b4823ba5b4d7d844066c9447bc2cb8cf8ed57c11d3b65c721799887ca
   languageName: node
   linkType: hard
 
@@ -605,7 +605,7 @@ __metadata:
   dependencies:
     "@commitlint/cli": 17.3.0
     "@commitlint/config-conventional": 17.3.0
-    "@memori.ai/memori-react": 9.0.0-rc.4
+    "@memori.ai/memori-react": 9.0.0-rc.5
     "@nats-io/jetstream": ^3.4.0
     "@nats-io/nats-core": ^3.4.0
     "@parcel/packager-ts": 2.16.4
@@ -4331,15 +4331,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dompurify@npm:^3.4.13":
-  version: 3.4.14
-  resolution: "dompurify@npm:3.4.14"
+"dompurify@npm:^3.4.16":
+  version: 3.4.16
+  resolution: "dompurify@npm:3.4.16"
   dependencies:
     "@types/trusted-types": ^2.0.7
   dependenciesMeta:
     "@types/trusted-types":
       optional: true
-  checksum: b33560cfe33df810449ab31d216d37d5d33aaa21843650bc9fc8e0a52b2f9c3e92d3574b3272b6ed701ac7f74e19ee0983689469a36fab68472528f568decb1d
+  checksum: 8960f22f22ca06368772e52b2f97fb7270caa453711d027e99924d49974cb3d463d47539b9f7d45ee80c335efd26f73558f0dca09dd3cba0d4081600f1d762e6
   languageName: node
   linkType: hard
 
