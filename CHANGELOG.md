@@ -1,11 +1,25 @@
 
 
+## [9.0.0-rc.3](https://github.com/memori-ai/memori-webcomponent/compare/v9.0.0-rc.2...v9.0.0-rc.3) (2026-10-05)
+
+
+### Maintenance
+
+* update memori-react to version 9.0.0-rc.6 ([66b69b8](https://github.com/memori-ai/memori-webcomponent/commit/66b69b8cf1473f6efd6e7ef3faec4958514a1ba9))
+
 ## [8.3.5](https://github.com/memori-ai/memori-webcomponent/compare/v8.3.4...v8.3.5) (2026-10-05)
 
 
 ### Maintenance
 
 * update memori-react to version 8.46.1 ([4dc1946](https://github.com/memori-ai/memori-webcomponent/commit/4dc194629ceece289fa2d08d5c1ef3683e378bec))
+
+## [9.0.0-rc.2](https://github.com/memori-ai/memori-webcomponent/compare/v9.0.0-rc.1...v9.0.0-rc.2) (2026-10-01)
+
+
+### Maintenance
+
+* update memori-react to version 9.0.0-rc.5 ([6739982](https://github.com/memori-ai/memori-webcomponent/commit/67399827758f419d2a64946a70266d501e0b2c46))
 
 ## [8.3.4](https://github.com/memori-ai/memori-webcomponent/compare/v8.3.3...v8.3.4) (2026-09-29)
 
@@ -14,12 +28,33 @@
 
 * update memori-react to version 8.46.0 ([68d3ca6](https://github.com/memori-ai/memori-webcomponent/commit/68d3ca64ee33fc13eb5ae70f69f50b515a95fec1))
 
+## [9.0.0-rc.1](https://github.com/memori-ai/memori-webcomponent/compare/v9.0.0-rc.0...v9.0.0-rc.1) (2026-09-28)
+
+
+### Maintenance
+
+* update memori-react to version 9.0.0-rc.4 ([e97ed11](https://github.com/memori-ai/memori-webcomponent/commit/e97ed11ed7371061ba16247810b1be313f2c3a55))
+
+## [9.0.0-rc.0](https://github.com/memori-ai/memori-webcomponent/compare/v9.0.0-alpha.2...v9.0.0-rc.0) (2026-09-22)
+
+
+### Maintenance
+
+* update memori-react to version 9.0.0-rc.0 ([385aed8](https://github.com/memori-ai/memori-webcomponent/commit/385aed865159f0ad2db5dcfa94a75c5edb2b400c))
+
 ## [8.3.3](https://github.com/memori-ai/memori-webcomponent/compare/v8.3.2...v8.3.3) (2026-09-18)
 
 
 ### Maintenance
 
 * update memori-react to version 8.45.3 and enhance component styling ([859e8ed](https://github.com/memori-ai/memori-webcomponent/commit/859e8ed4e1560110cef6757cfebe06edbfbc670d))
+
+## [9.0.0-alpha.2](https://github.com/memori-ai/memori-webcomponent/compare/v9.0.0-alpha.1...v9.0.0-alpha.2) (2026-09-17)
+
+
+### Maintenance
+
+* update memori-react to version 9.0.0-alpha.25 ([aa505d2](https://github.com/memori-ai/memori-webcomponent/commit/aa505d229e0081f19b060e8db45c7661cb67220e))
 
 ## [8.3.2](https://github.com/memori-ai/memori-webcomponent/compare/v8.3.1...v8.3.2) (2026-09-11)
 
@@ -42,6 +77,21 @@
 
 * update memori-react ([25eab01](https://github.com/memori-ai/memori-webcomponent/commit/25eab012126dd5b76aed22403bee6a8716939754))
 * update memori-react to version 8.43.0 ([9540363](https://github.com/memori-ai/memori-webcomponent/commit/9540363542f8c4decc8ece68dc616cd2c2200017))
+
+## [9.0.0-alpha.1](https://github.com/memori-ai/memori-webcomponent/compare/v9.0.0-alpha.0...v9.0.0-alpha.1) (2026-09-07)
+
+
+### Maintenance
+
+* update memori-react to version 9.0.0-alpha.22 ([47e0b4d](https://github.com/memori-ai/memori-webcomponent/commit/47e0b4d4a72a90b73701692a8b3a5e4edffbb843))
+
+## [9.0.0-alpha.0](https://github.com/memori-ai/memori-webcomponent/compare/v8.2.18...v9.0.0-alpha.0) (2026-09-02)
+
+
+### Maintenance
+
+* update build script to include cleaning step before building ([37daacc](https://github.com/memori-ai/memori-webcomponent/commit/37daacceb0b9f4292a9563a43fdd48d946d8a915))
+* update memori-react to version 9.0.0-alpha.21 ([a7be6b1](https://github.com/memori-ai/memori-webcomponent/commit/a7be6b1ce268aa74c3fbc3d73ec1b3f524555c05))
 
 ## [8.2.18](https://github.com/memori-ai/memori-webcomponent/compare/v8.2.17...v8.2.18) (2026-08-26)
 
