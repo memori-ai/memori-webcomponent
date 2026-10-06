@@ -1,5 +1,12 @@
 
 
+## [9.0.3](https://github.com/memori-ai/memori-webcomponent/compare/v9.0.1...v9.0.3) (2026-10-06)
+
+
+### Maintenance
+
+* update memori-react to version 9.0.3 and fix typo in package.json ([7064e7f](https://github.com/memori-ai/memori-webcomponent/commit/7064e7ff1466b5aacc5a7490938bb88b0f0deb60))
+
 ## [9.0.1](https://github.com/memori-ai/memori-webcomponent/compare/v9.0.0...v9.0.1) (2026-10-05)
 
 
