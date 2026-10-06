@@ -562,9 +562,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@memori.ai/memori-react@npm:9.0.1":
-  version: 9.0.1
-  resolution: "@memori.ai/memori-react@npm:9.0.1"
+"@memori.ai/memori-react@npm:9.0.3":
+  version: 9.0.3
+  resolution: "@memori.ai/memori-react@npm:9.0.3"
   dependencies:
     "@memori.ai/memori-api-client": 6.24.1
     "@memori.ai/ui": 2.0.2
@@ -577,13 +577,13 @@ __metadata:
     dompurify: ^3.4.16
     ellipsed: 1.6.0
     i18next: 22.0.6
-    katex: ^0.16.11
+    katex: 0.18.10
     leaflet: ^1.9.4
     lil-gui: ^0.19.2
     lucide-react: ^0.460.0
     luxon: ^3.5.0
     marked: ^15.0.2
-    marked-katex-extension: 5.1.10
+    marked-katex-extension: 5.1.13
     marked-linkify-it: ^3.1.12
     qrcode.react: 3.1.0
     react-hook-form: 7.39.5
@@ -595,7 +595,7 @@ __metadata:
   peerDependencies:
     react: ">=17"
     typescript: ">=4.8"
-  checksum: 7a9ce80a707f4f14815db943394df5fb74224b49c34761d8de4354d4a26dbeee607e33b1c422fde38be8ee674700156c6a8c3f974359b5cc9b4379f87a6fdf04
+  checksum: f532064d6344505dcb1f1ff9c260a3536a0b5086ec033be996ba116a9dcab1294ec045350806857472803860a960d760329c62925ef11010bf609a3bd9cc6243
   languageName: node
   linkType: hard
 
@@ -605,7 +605,7 @@ __metadata:
   dependencies:
     "@commitlint/cli": 17.3.0
     "@commitlint/config-conventional": 17.3.0
-    "@memori.ai/memori-react": 9.0.1
+    "@memori.ai/memori-react": 9.0.3
     "@nats-io/jetstream": ^3.4.0
     "@nats-io/nats-core": ^3.4.0
     "@parcel/packager-ts": 2.16.4
@@ -3491,10 +3491,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"commander@npm:^8.3.0":
-  version: 8.3.0
-  resolution: "commander@npm:8.3.0"
-  checksum: 0f82321821fc27b83bd409510bb9deeebcfa799ff0bf5d102128b500b7af22872c0c92cb6a0ebc5a4cf19c6b550fba9cedfa7329d18c6442a625f851377bacf0
+"commander@npm:^15.0.0":
+  version: 15.0.0
+  resolution: "commander@npm:15.0.0"
+  checksum: e8aaa24591ae09389e83320431d47b44d9b03abe754586b689020b6bb6fc950a0089e9379099efa2e63b6b7c0e1e216bcf6b485754da7a54a74840077f3c6d2b
   languageName: node
   linkType: hard
 
@@ -6568,14 +6568,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"katex@npm:^0.16.11":
-  version: 0.16.11
-  resolution: "katex@npm:0.16.11"
+"katex@npm:0.18.10":
+  version: 0.18.10
+  resolution: "katex@npm:0.18.10"
   dependencies:
-    commander: ^8.3.0
+    commander: ^15.0.0
   bin:
     katex: cli.js
-  checksum: 49d9340705f4922ee22aacedad45664971449e5ca65e42a70228961336c8d4746c37c3c719bcc2114b6ad21182800c7d3d8bea28fe6f951fc45fe7e8322ea3bd
+  checksum: 50b3870124b15c3c5e3bc4f42c529eb230e0c2d618ea73dbb8b20bcb8d78f55d97fb691750c702105f96f64121aae956d5395ad7e534b22309acae0eb3722be8
   languageName: node
   linkType: hard
 
@@ -7114,13 +7114,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"marked-katex-extension@npm:5.1.10":
-  version: 5.1.10
-  resolution: "marked-katex-extension@npm:5.1.10"
+"marked-katex-extension@npm:5.1.13":
+  version: 5.1.13
+  resolution: "marked-katex-extension@npm:5.1.13"
   peerDependencies:
-    katex: ">=0.16 <0.18"
+    katex: ">=0.16 <0.19"
     marked: ">=4 <19"
-  checksum: f8d92061c149d73d574515b771017bb1407898ba988be5a6faf0795505140a7c8e05642be112afc8cf9d3fa5f7cc11939439089bed6b921876e91919849d169e
+  checksum: 23cca4e5fc61557d415b833dd9ba7ab1c7b34b690996f8acbed51430141b6415402b17036703e25247e5872c509f5a3f88079dfced669ada50856e2808b53bea
   languageName: node
   linkType: hard
 
