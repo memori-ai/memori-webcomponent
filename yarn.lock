@@ -51,22 +51,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:^7.29.2":
-  version: 7.29.7
-  resolution: "@babel/runtime@npm:7.29.7"
-  checksum: bc311855c6dbf5356030979584ca0f8b6cee39fe058175b02e85a73e246fc76ae30248b0d40e70c2652101faeb43279468ed2d086a670673eb9783c1fee1df2b
+"@babel/runtime@npm:^7.29.7 || ^8.0.0":
+  version: 8.1.0
+  resolution: "@babel/runtime@npm:8.1.0"
+  checksum: daba23849da507c2cd10320a0349485fd477b4f8cdc3f887d0393264dfd81d437102ed7b34b4bf3b4d0c70cd0cdb9b1a373a1ed19ef43013f8f6419b89c6b0b2
   languageName: node
   linkType: hard
 
-"@base-ui/react@npm:^1.0.0":
-  version: 1.7.0
-  resolution: "@base-ui/react@npm:1.7.0"
+"@base-ui/react@npm:^1.9.0":
+  version: 1.9.0
+  resolution: "@base-ui/react@npm:1.9.0"
   dependencies:
-    "@babel/runtime": ^7.29.2
-    "@base-ui/utils": 0.3.2
+    "@babel/runtime": ^7.29.7 || ^8.0.0
+    "@base-ui/utils": 0.5.0
     "@floating-ui/react-dom": ^2.1.9
     "@floating-ui/utils": ^0.2.12
-    use-sync-external-store: ^1.6.0
+    use-sync-external-store: ^1.7.0
   peerDependencies:
     "@date-fns/tz": ^1.2.0
     "@types/react": ^17 || ^18 || ^19
@@ -80,18 +80,18 @@ __metadata:
       optional: true
     date-fns:
       optional: true
-  checksum: 68be5b6ea506a4bd530ebae3ed9244c6165970da3589e9a3c2dc9e8600e6c6352eeb8e7546ed00f9a35c88d6cc475fb1c058f76bcc5bf17df382370a05a55ddc
+  checksum: 65cac6300ce45d5597805d2442ee1098dd1a9db11ea5cc01a076aab7062b9e4e5b91114f2ea8599beea1de7a1adddaf42d31f9498833f2da936d5c49583faccf
   languageName: node
   linkType: hard
 
-"@base-ui/utils@npm:0.3.2":
-  version: 0.3.2
-  resolution: "@base-ui/utils@npm:0.3.2"
+"@base-ui/utils@npm:0.5.0":
+  version: 0.5.0
+  resolution: "@base-ui/utils@npm:0.5.0"
   dependencies:
-    "@babel/runtime": ^7.29.2
+    "@babel/runtime": ^7.29.7 || ^8.0.0
     "@floating-ui/utils": ^0.2.12
-    reselect: ^5.2.0
-    use-sync-external-store: ^1.6.0
+    reselect: ^5.3.0
+    use-sync-external-store: ^1.7.0
   peerDependencies:
     "@types/react": ^17 || ^18 || ^19
     react: ^17 || ^18 || ^19
@@ -99,7 +99,7 @@ __metadata:
   peerDependenciesMeta:
     "@types/react":
       optional: true
-  checksum: 3a470069452e2f13224320c8bd161f6f18d72d6c5d41627aa88fa0f903b43409646c107d54baa10d31695d102ea6b959aeddea44e03c139616673d327e344633
+  checksum: c600773688948a10a8b6d37a9ad2cb6fda0bef0d84831e9e14457fe45b69b2f2e0b219f71fa7801553aa7cc1d725cfaaaeebbd51a9bac14e338bc4eec9dddf3b
   languageName: node
   linkType: hard
 
@@ -562,12 +562,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@memori.ai/memori-react@npm:9.1.5":
-  version: 9.1.5
-  resolution: "@memori.ai/memori-react@npm:9.1.5"
+"@memori.ai/memori-react@npm:9.1.7":
+  version: 9.1.7
+  resolution: "@memori.ai/memori-react@npm:9.1.7"
   dependencies:
     "@memori.ai/memori-api-client": 6.24.1
-    "@memori.ai/ui": 2.0.6
+    "@memori.ai/ui": 2.0.7
     "@nats-io/jetstream": ^3.4.0
     "@nats-io/nats-core": ^3.4.0
     "@react-three/drei": 8.20.2
@@ -595,7 +595,7 @@ __metadata:
   peerDependencies:
     react: ">=17"
     typescript: ">=4.8"
-  checksum: 9cd64ae505a1a54095bac2b12517e1b02f86a407a4910b01b8db739fc7da46c449e3c62df0e61cc142409026a6ab397eefe92bfaf9fc8344eea752b07be3903e
+  checksum: e06230ff79891698a700faad21b5c2cf813affc54a661068b3377fd20ae1bef8bbf70bf363ebf9aa88417d70eed8512e54362e6bf59052319d62b6743f825a3b
   languageName: node
   linkType: hard
 
@@ -605,7 +605,7 @@ __metadata:
   dependencies:
     "@commitlint/cli": 17.3.0
     "@commitlint/config-conventional": 17.3.0
-    "@memori.ai/memori-react": 9.1.5
+    "@memori.ai/memori-react": 9.1.7
     "@nats-io/jetstream": ^3.4.0
     "@nats-io/nats-core": ^3.4.0
     "@parcel/packager-ts": 2.16.4
@@ -652,11 +652,11 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@memori.ai/ui@npm:2.0.6":
-  version: 2.0.6
-  resolution: "@memori.ai/ui@npm:2.0.6"
+"@memori.ai/ui@npm:2.0.7":
+  version: 2.0.7
+  resolution: "@memori.ai/ui@npm:2.0.7"
   dependencies:
-    "@base-ui/react": ^1.0.0
+    "@base-ui/react": ^1.9.0
     "@tanstack/react-table": ^8.21.0
     classnames: ^2.5.1
     lucide-react: ^0.555.0
@@ -676,7 +676,7 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: b64aa30498bc97b3960d2cef6c8553b37d3055a7033ec46a295d57d0a672ab6a1ac09daa3cf8d18af490fb35be9c40ea4e347eff92c9c10fec56f4a4f2f4b494
+  checksum: 54b74db8f9a06d7097014b9d9183dffcbbb3f888c16a89995b0ac997ca9fda51b956a249dd34a2b49f9dbe5903ddfb1f4387422039e68fcd444e6f208c1bcc6a
   languageName: node
   linkType: hard
 
@@ -9284,7 +9284,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"reselect@npm:^5.2.0":
+"reselect@npm:^5.3.0":
   version: 5.3.0
   resolution: "reselect@npm:5.3.0"
   checksum: ebe24b04f118302858e6e3086ec5200b27bc190b55fc1499feb8aecd8ddd0e75aeb0e744babc185d42252695846edaf5add0b3bb60aae7091afbbf04ccbbaf5d
@@ -10733,6 +10733,15 @@ __metadata:
   peerDependencies:
     react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
   checksum: 61a62e910713adfaf91bdb72ff2cd30e5ba83687accaf3b6e75a903b45bf635f5722e3694af30d83a03e92cb533c0a5c699298d2fef639a03ffc86b469f4eee2
+  languageName: node
+  linkType: hard
+
+"use-sync-external-store@npm:^1.7.0":
+  version: 1.7.0
+  resolution: "use-sync-external-store@npm:1.7.0"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+  checksum: 55e36d54531a778ec8521123ced6cec974dae28585bf2544429245025e989b3d63822f61a1fadc537d10976c0042f54f66c28de8216c2cde0edcbbe8abdf972f
   languageName: node
   linkType: hard
 
