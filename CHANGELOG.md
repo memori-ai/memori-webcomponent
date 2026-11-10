@@ -1,5 +1,12 @@
 
 
+## [9.1.7](https://github.com/memori-ai/memori-webcomponent/compare/v9.1.5...v9.1.7) (2026-11-10)
+
+
+### Maintenance
+
+* release v9.1.7 with updated dependencies ([52067f1](https://github.com/memori-ai/memori-webcomponent/commit/52067f1d327c75bd15655043801b5dc7aab6f0d8))
+
 ## [9.1.5](https://github.com/memori-ai/memori-webcomponent/compare/v9.1.4...v9.1.5) (2026-11-05)
 
 
